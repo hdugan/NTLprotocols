@@ -1,0 +1,9 @@
+# Welcome {.unnumbered}
+
+This is the website for NTL-LTER research protocols.
+
+This is licensed under the [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/) License.
+
+## Acknowledgements {.unnumbered}
+
+Supported by the National Science Foundation under Cooperative Agreement #DEB-2025982. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of NSF.

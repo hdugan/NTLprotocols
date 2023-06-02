@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "NTL Research Protocols"
+  author: "NTL-LTER"
+  date: "6/1/2023"
+  chapters:
+    - index.qmd
+    - alkalinity.qmd
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    author-meta: "Hilary Dugan"
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
