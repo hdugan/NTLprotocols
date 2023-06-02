@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "alkalinity.html#preparing-for-analysis",
+    "href": "alkalinity.html#preparing-for-analysis",
+    "title": "1  Alkalinity",
+    "section": "1.1 Preparing for Analysis",
+    "text": "1.1 Preparing for Analysis\nRemove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.\nTurn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis\nPrepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis\n\nRemove the storage solution and parafilm from the probe\nCheck that there is enough liquid in the probe\nRinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.\n\nUsing the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.\n\nPlace the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\nIf the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.\n\n\n\n\nBuffer pH\nmillivolts\n\n\n3.557\n168\n\n\n6.87\n-19\n\n\n\nMake sure that all the sample cups and stir bars are clean and dry.\nTurn on the electronic micropipette."
+  },
+  {
+    "objectID": "alkalinity.html#analysis-of-standard",
+    "href": "alkalinity.html#analysis-of-standard",
+    "title": "1  Alkalinity",
+    "section": "1.2 Analysis of Standard",
+    "text": "1.2 Analysis of Standard"
+  }
+]
