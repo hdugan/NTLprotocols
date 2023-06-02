@@ -1,23 +1,30 @@
 [
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "",
-    "section": "",
-    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "alkalinity.html",
-    "href": "alkalinity.html",
-    "title": "",
-    "section": "",
-    "text": "Revised: Grace Wilkinson, March 2023\n\n\nThis procedure describes the steps to potentiometrically titrate water samples with standardized hydrochloric acid to calculate alkalinity according to Andersen, 2002 and USGS National Field Manual for the Collection of Water-Quality Data. The units of alkalinity for this analysis are microequivalents of carbonate per liter.\n\n\n\n≤ 14 days @ 4° C unpreserved\n\n\n\n(see materials for regents in step 5):\n\nMilliQ water\n0.05N Hydrochloric Acid\n1000 ueq/L Sodium Carbonate standard\npH meter and probe\npH buffers\nAnalytical balance\nP200 manual, adjustable pipette\nP100 electronic, adjustable pipette\nPipet tips\nSmall, graduated cups for titration\nMicro-stirbar\nMilliQ squirt bottle\nKimwipes\n\n\n\n\nThe glass jar to hold waste rinses and the graduated cups used for titration should be rinsed with DI water from the tap at the sink and set upside down to dry.\n\n\n\nNitrile gloves and eye protection should be worn while titrating. Always use chemical resistant gloves (not latex), safety glasses, lab coat, and a fume hood while using concentrated acids to prepare the 0.05N HCl. This is not only for your protection, but also to prevent contamination of samples. Proper personal protective equipment is always required for safety and contamination prevention.\n\n\n\n\nBlind samples for analysis (i.e., field duplicates)\nTriplicate analysis of standard solution\n\n\n\n\nMost of the reagent solutions used in this procedure can go down the drain; however the pH should be near neutral (pH 5 – 8). Flush during and after disposal by running tap water. Excess dry reagents from preparing the stock can go in the trash.\nConsumables Ordering: Item Catalog # Item Catalog # Na2CO3 salt Fisher AA3648522 Buffer 3.557 (Ricca) Fisher 149816 Optima HCl (500 mL) Fisher A466500 Buffer 6.87 (Ricca) Fisher 154016\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nCatalog #\nItem\nCatalog #\n\n\nNa2CO3 salt\nFisher AA3648522\nBuffer 3.557 (Ricca)\nFisher 149816\n\n\nOptima HCl (500 mL)\nFisher A466500\nBuffer 6.87 (Ricca)\nFisher 154016\n\n\n\n\n\n\nRemove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.\nTurn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis\nPrepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis\n\nRemove the storage solution and parafilm from the probe\nCheck that there is enough liquid in the probe\nRinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.\n\nUsing the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.\n\nPlace the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\nIf the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.\n\n\n\n\nBuffer pH\nmillivolts\n\n\n3.557\n168\n\n\n6.87\n-19\n\n\n\nMake sure that all the sample cups and stir bars are clean and dry.\nTurn on the electronic micropipette."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "NTL Research Protocols",
     "section": "",
-    "text": "This is the website for NTL-LTER research protocols.\nThis is licensed under the CC BY-NC-ND 3.0 License.\n\n\nSupported by the National Science Foundation under Cooperative Agreement #DEB-2025982. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of NSF."
+    "text": "Welcome\nThis is the website for NTL-LTER research protocols.\nThis is licensed under the CC BY-NC-ND 3.0 License."
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "NTL Research Protocols",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nSupported by the National Science Foundation under Cooperative Agreement #DEB-2025982. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of NSF."
+  },
+  {
+    "objectID": "alkalinity.html#preparing-for-analysis",
+    "href": "alkalinity.html#preparing-for-analysis",
+    "title": "1  Alkalinity",
+    "section": "1.1 Preparing for Analysis",
+    "text": "1.1 Preparing for Analysis\nRemove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.\nTurn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis\nPrepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis\n\nRemove the storage solution and parafilm from the probe\nCheck that there is enough liquid in the probe\nRinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.\n\nUsing the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.\n\nPlace the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\nIf the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.\n\n\n\n\nBuffer pH\nmillivolts\n\n\n3.557\n168\n\n\n6.87\n-19\n\n\n\nMake sure that all the sample cups and stir bars are clean and dry.\nTurn on the electronic micropipette."
+  },
+  {
+    "objectID": "alkalinity.html#analysis-of-standard",
+    "href": "alkalinity.html#analysis-of-standard",
+    "title": "1  Alkalinity",
+    "section": "1.2 Analysis of Standard",
+    "text": "1.2 Analysis of Standard"
   }
 ]
