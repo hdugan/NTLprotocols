@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "alkalinity.html#preparing-for-analysis",
+    "href": "alkalinity.html#preparing-for-analysis",
+    "title": "1  Alkalinity",
+    "section": "1.1 Preparing for Analysis",
+    "text": "1.1 Preparing for Analysis\nRemove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.\nTurn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis\nPrepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis\n\nRemove the storage solution and parafilm from the probe\nCheck that there is enough liquid in the probe\nRinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.\n\nUsing the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.\n\nPlace the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\nIf the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.\n\n\n\n\nBuffer pH\nmillivolts\n\n\n3.557\n168\n\n\n6.87\n-19\n\n\n\nMake sure that all the sample cups and stir bars are clean and dry.\nTurn on the electronic micropipette."
+  },
+  {
+    "objectID": "alkalinity.html#analysis-of-standard",
+    "href": "alkalinity.html#analysis-of-standard",
+    "title": "1  Alkalinity",
+    "section": "1.2 Analysis of Standard",
+    "text": "1.2 Analysis of Standard\nPlace a sample cup with a microstir bar on the analytical balance. Tare the balance.\nPour and pipette 16 ± 0.1 mL of the 1000 µe/L standard into the sample cup on the balance. Remember, 16 mL = 16 g.\nRecord the mass of the standard sample on the standards data sheet.\nPour an aliquot of 0.5 N HCl into one of the plastic cups and cover with parafilm for storage. This will be the working acid solution you use for titrations and pre-dosing.\nPre-dose the standard sample with 0.2-0.4 mL of 0.5 N HCl acid. Remember, 100 µL = 0.1 mL\nPlace the standard sample on the stir plate and carefully position the pH probe so that is submerged in the sample without touching the sides or the microstir bar. Turn on the stir plate.\nUsing the electronic micropipette, add 0.01 mL aliquots of HCl until the meter reads 120 mV. Keep track of the volume added!\n\nRecord the pre-dosing volume and volume added in step 2.8 along with the mV reading on line 1.\nDo not record any readings or volumes until the mV reading is greater than 120 mV.\n\nAdd an additional 0.01 mL aliquot of acid to the standard sample and let the pH reading stabilize. Record the new volume and mV.\nRepeat this process for 10 total aliquots of 0.01 mL of acid. Record the volume and mV reading each time.\nCleaning up the standard sample:\n\nDump the sample down the sink.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\n\nRepeat steps 2.1 – 2.10 twice more for a total of three standard sample readings.\nCompare the amount of acid added to reach 120 mV and the mV readings thereafter. If the standard samples are wildly different from each other, the pH probe or the standard solution may be compromised. Do not continue with sample analysis in this instance and seek guidance from the Lab Manager."
+  },
+  {
+    "objectID": "alkalinity.html#analysis-of-samples",
+    "href": "alkalinity.html#analysis-of-samples",
+    "title": "1  Alkalinity",
+    "section": "1.3 Analysis of Samples",
+    "text": "1.3 Analysis of Samples\nFollow the same procedure described in step 2.1 – 2.10 above for each sample. NOTE: the pre-dosing volume is different for each LTER lake.\n\nNorthern Lakes Pre-Dosing\n\n\nAbbreviation\nLake Name\nPre-Dosing Volume\n\n\n\n\nAL\nAllequash Lake\n0.2 mL\n\n\nSP\nSparkling\n0.2 mL\n\n\nTR\nTrout Lake\n0.2 mL\n\n\nBM\nBig Muskellunge\n0.1 mL\n\n\nCR\nCrystal lake\nNone\n\n\nCB (Bog 27.2)\nCrystal Bog\nNone\n\n\nTB (Bog 12.15)\nTrout Bog\nNone\n\n\n\n\nSouthern Lakes Pre-Dosing\n\n\nAbbreviation\nLake Name\nPre-Dosing Volume\n\n\n\n\nFI\nFish Lake\n0.7–0.9 mL\n\n\nWI\nWingra\n0.9–1.1 mL\n\n\nME\nMendota\n0.9–1.1 mL\n\n\nMO\nMonona\n0.9–1.1 mL\n\n\nWA\nWaubesa\n0.9 mL\n\n\nKE\nKegonsa\n0.9 mL"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NTL Research Protocols",
@@ -14,17 +35,17 @@
     "text": "Acknowledgements\nSupported by the National Science Foundation under Cooperative Agreement #DEB-2025982. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of NSF."
   },
   {
-    "objectID": "alkalinity.html#preparing-for-analysis",
-    "href": "alkalinity.html#preparing-for-analysis",
+    "objectID": "alkalinity.html#equations",
+    "href": "alkalinity.html#equations",
     "title": "1  Alkalinity",
-    "section": "1.1 Preparing for Analysis",
-    "text": "1.1 Preparing for Analysis\nRemove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.\nTurn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis\nPrepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis\n\nRemove the storage solution and parafilm from the probe\nCheck that there is enough liquid in the probe\nRinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.\n\nUsing the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.\n\nPlace the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.\nRinse off the pH probe with MilliQ water and dab dry with a Kimwipe\nIf the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.\n\n\n\n\nBuffer pH\nmillivolts\n\n\n3.557\n168\n\n\n6.87\n-19\n\n\n\nMake sure that all the sample cups and stir bars are clean and dry.\nTurn on the electronic micropipette."
+    "section": "1.4 Equations",
+    "text": "1.4 Equations\n\\[ pH = {(mV-\\ b_{std})\\over m_{std}} \\]"
   },
   {
-    "objectID": "alkalinity.html#analysis-of-standard",
-    "href": "alkalinity.html#analysis-of-standard",
+    "objectID": "alkalinity.html#equations-testing",
+    "href": "alkalinity.html#equations-testing",
     "title": "1  Alkalinity",
-    "section": "1.2 Analysis of Standard",
-    "text": "1.2 Analysis of Standard"
+    "section": "1.4 Equations (testing)",
+    "text": "1.4 Equations (testing)\n\\[ pH = {(mV-\\ b_{std})\\over m_{std}} \\]\n\\[ F1 = 1000 \\times {Volume Acid Added + Sample Volume \\over Sample Volume} \\times 10^{-pH} \\]"
   }
 ]
