@@ -7,21 +7,28 @@ book:
   title: "NTL Research Protocols"
   author: "NTL-LTER"
   date: "6/1/2023"
+  site-url: https://hdugan.github.io/NTLprotocols/
+  repo-url: https://github.com/hdugan/NTLprotocols/
   chapters:
     - index.qmd
-    - alkalinity.qmd
+    
+    - part: waterChem.qmd
+      chapters:
+        - alkalinity.qmd
 
 #bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - journal.scss
     author-meta: "Hilary Dugan"
   pdf:
     documentclass: scrreprt
     toc: true
     number-sections: true
     colorlinks: true
-
+    
 editor: visual
 

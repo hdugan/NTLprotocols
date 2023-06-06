@@ -1,0 +1,3 @@
+# Water Chemistry Protocols {#sec-waterchem}
+
+The following sections contains water chemistry laboratory protocols.
