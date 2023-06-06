@@ -64,13 +64,17 @@ Consumables Ordering: Item Catalog \# Item Catalog \# Na2CO3 salt Fisher AA36485
 ### Prepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis
 
 #### Remove the storage solution and parafilm from the probe
+
 #### Check that there is enough liquid in the probe
+
 #### Rinse the probe with MilliQ water from the squirt bottle and dab with a Kimwipe. NOTE: Do not rub the probe with a Kimwipe as this creates static.
 
 ### Using the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.
 
 #### Place the pH probe in the buffer solution and allow the reading to stabilize. Record the millivolts (mV) on the sample data sheet.
+
 #### Rinse off the pH probe with MilliQ water and dab dry with a Kimwipe
+
 #### If the millivolts are not close to the values recorded below, the pH probe may be faulty or need recalibration. Consult with the lab manager before proceeding.
 
 |               |                |
@@ -100,6 +104,7 @@ Consumables Ordering: Item Catalog \# Item Catalog \# Na2CO3 salt Fisher AA36485
 ### Using the electronic micropipette, add 0.01 mL aliquots of HCl until the meter reads 120 mV. Keep track of the volume added!
 
 #### Record the pre-dosing volume and volume added in the following step along with the mV reading on line 1.
+
 #### Do not record any readings or volumes until the mV reading is greater than 120 mV.
 
 ### Add an additional 0.01 mL aliquot of acid to the standard sample and let the pH reading stabilize. Record the new volume and mV.
@@ -109,6 +114,7 @@ Consumables Ordering: Item Catalog \# Item Catalog \# Na2CO3 salt Fisher AA36485
 ### Cleaning up the standard sample: {#sec-alkalinity-step10}
 
 #### Dump the sample down the sink.
+
 #### Rinse off the pH probe with MilliQ water and dab dry with a Kimwipe
 
 ### Repeat steps from @sec-alkalinity-step1 - @sec-alkalinity-step10 twice more for a total of three standard sample readings.
@@ -148,9 +154,48 @@ Follow the same procedure described in @sec-alkalinity-step1 - @sec-alkalinity-s
 
 ### Use the calibration buffers to calculate a standard curve relating mV (millivolts) to pH. Calculate the slope (mstd) and intercept (bstd).
 
-![](figs/alk_1.png){fig-align="left"}
+```{r}
+#| echo: false
+#| warning: false
+#| fig-width: 5
+#| fig-height: 3
+#| fig-alt: |
+#|   A scatterplot of buffer pH vs millivolts
+library(ggplot2)
 
-*In this example, the slope (mstd) is -56.44 and the intercept (bstd) is 368.77. The slope should always be negative for the standard curve and the coefficients should be similar to the values in this example. If not, the pH probe may be faulty. Try calibrating.*
+lm_eqn <- function(df){
+    m <- lm(y ~ x, df);
+    
+    
+    if(coef(m)[2] > 0) {
+    eq <- substitute(italic(y) == a + b, 
+         list(a = format(unname(coef(m)[1]), digits = 4),
+              b = format(unname(coef(m)[2]), digits = 4)))
+    } else {
+      eq <- substitute(italic(y) == a - b, 
+         list(a = format(unname(coef(m)[1]), digits = 4),
+              b = format(unname(-coef(m)[2]), digits = 4)))
+    }
+    
+    as.character(as.expression(eq));
+}
+
+df = data.frame(x = c(3.557, 6.87), y = c(168,-19))
+
+ggplot(df, aes(x = x, y = y)) +
+  geom_point() +
+  geom_path() +
+  geom_text(x = 6, y = 125, label = lm_eqn(df), parse = TRUE) +
+  labs(
+    x = "Buffer pH",
+    y = "milliVolts"
+  ) +
+  theme_bw(base_size = 12)
+```
+
+<!-- ![](figs/alk_1.png){fig-align="left"} -->
+
+*In this example, the slope (mstd) is -56.44 and the intercept (bstd) is 368.8. The slope should always be negative for the standard curve and the coefficients should be similar to the values in this example. If not, the pH probe may be faulty. Try calibrating.*
 
 ### Using the standard curve coefficients, calculate the pH for each point in the sample titration. $$ pH = {(mV-\ b_{std})\over m_{std}} $$
 
@@ -199,7 +244,9 @@ $${0.9325mol\:HCl \over 0.0847L\:solution} = 11.01M\:(mols/L)$$
 *Based upon M1V1 = M2V2:* $$V1 = {{0.05\:HCl \times 1000mL}\over 11.01M} = 4.54 mL$$
 
 #### Fill the volumetric flask with \~800 mL of milliQ water.
+
 #### Using a pipette, dispense 4.54 mL of HCl into the volumetric flask
+
 #### Fill the volumetric flask to the 1 L mark with milliQ water. Cap and invert to mix.
 
 ### Standardizing the HCl titration solution
@@ -207,7 +254,9 @@ $${0.9325mol\:HCl \over 0.0847L\:solution} = 11.01M\:(mols/L)$$
 Requires titrating the 1000 µEq L^-1^ standard multiple times and the intercept of F1 \~ volume of acid added (@sec-alkalinity-regress) is averaged to determine molarity.
 
 #### Following the methods in Part 2 of this protocol, titrate at least 10 standard solution samples of 16 mL.
+
 #### Enter the data into the calculation spreadsheet (based on calculations in @sec-alkalinity-calculations of this protocol) and record the intercept.
+
 #### Average the intercepts from the 10 titrations of standard solution and use in the following equation to calculate molarity (equivalent in this case to normality): $${1000 \over 1e6} \times {16mL \over avg.intercept} = molarity\:of\:HCl\:solution$$
 
 ## References
