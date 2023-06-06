@@ -1,2 +1,3 @@
-# NTLprotocols
-NTL research protocols
+# NTL-LTER research protocols
+
+https://hdugan.github.io/NTLprotocols/
