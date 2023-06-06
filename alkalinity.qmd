@@ -191,8 +191,8 @@ lm_eqn <- function(df){
 df = data.frame(x = c(3.557, 6.87), y = c(168,-19))
 
 ggplot(df, aes(x = x, y = y)) +
-  geom_point() +
   geom_path() +
+  geom_point(size = 4, fill = '#eb6864', shape = 21, stroke = 0.2) +
   geom_text(x = 6, y = 125, label = lm_eqn(df), parse = TRUE) +
   labs(
     x = "Buffer pH",
