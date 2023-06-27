@@ -19,6 +19,7 @@ book:
       chapters:
         - ammoniaNitrate.qmd
         - autoanalyzer.qmd
+        - benthicMacroinvertebrates.qmd
 
 #bibliography: references.bib
 
