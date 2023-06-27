@@ -1,4 +1,4 @@
-# Benthic Macroinvertebrates {#sec-alkalinity}
+# Benthic Macroinvertebrates {#sec-benthicMacroinvertebrates}
 
 ### Purpose:
 
