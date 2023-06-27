@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/index.html</loc>
-    <lastmod>2023-06-27T19:14:49.148Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.963Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/waterChem.html</loc>
-    <lastmod>2023-06-27T19:14:49.150Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.963Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/alkalinity.html</loc>
-    <lastmod>2023-06-27T19:14:49.166Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.980Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/oldProtocols.html</loc>
-    <lastmod>2023-06-27T19:14:49.169Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.983Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/ammoniaNitrate.html</loc>
-    <lastmod>2023-06-27T19:14:49.172Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.986Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/autoanalyzer.html</loc>
-    <lastmod>2023-06-27T19:14:49.176Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/benthicMacroinvertebrates.html</loc>
+    <lastmod>2023-06-27T19:31:58.999Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/NTL-Research-Protocols.pdf</loc>
-    <lastmod>2023-06-27T19:14:49.035Z</lastmod>
+    <lastmod>2023-06-27T19:31:58.857Z</lastmod>
   </url>
 </urlset>
