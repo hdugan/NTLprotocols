@@ -1,5 +1,7 @@
 # Autoanalyzer Operating Instructions {#sec-autoanalyzer}
 
+Revision: 8/24/95 by James Thoyre
+
 Start up:
  
 NOTE: To save time, start a warm water bath to bring the reagents up to room temp. Takes about 15 minutes to get hot water and about 20 minutes to warm the reagents.
@@ -56,4 +58,3 @@ Tray Preparation for BRSi and DRSi analysis:
 1) Fill tray with flat-bottomed cups.
 2) Fill the sample tray with samples. (No washes or rinses are needed!)
  
-last revision: 8/24/95 by James Thoyre
