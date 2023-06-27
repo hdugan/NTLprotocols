@@ -1,0 +1,16 @@
+# Ammonia and Nitrate/Nitrite {#sec-alkalinity}
+
+### NITRATE/NITRITE
+
+This automated procedure for the determination of nitrate and nitrite utilizes the procedure whereby nitrate is reduced to nitrite by a copper-cadmium reductor column. The nitrite ion then reacts with sulfanilamide under acidic conditions to form a diazo compound. This compound then couples with N-1-napthylethylenediamine dihydrochloride to form a reddish-purple azo dye.
+
+### AMMONIA
+
+This automated procedure for the determination of ammonia utilizes the Berthelot Reaction, in which the formation of a blue colored compound believed to be closely related to indophenol occurs when the solution of an ammonium salt is added to sodium phenoxide, followed by the addition of sodium hypochlorite. A solution of potassium sodium tartrate and sodium citrate is added to the sample stream to eliminate the precipitation of the hydroxides of calcium and magnesium.
+
+### AUTOANALYZER REAGENTS
+
+#### Nitrate/Nitrite
+
+Ammonium Chloride-EDTA Buffer Reagent Ammonium Chloride (NH4Cl) 85 g MQ Water 1000 mL Disodium Ethylenediamine Tetraacetate (disodium EDTA) (C10H14N2Na2O8 ·2H2O) 0.5 mL Ammonium hydroxide( NH4OH) 6.5 mL (found in hood in acid washing room) TX10 0.05 mL\
+--Dissolve Ammonium chloride and EDTA in 900 mL Milli-Q water. Add Ammonium hydroxide and dilute to 1 L. Add TX10 to working reagent

@@ -15,6 +15,10 @@ book:
     - part: waterChem.qmd
       chapters:
         - alkalinity.qmd
+    - part: oldProtocols.qmd
+      chapters:
+        - ammoniaNitrate.qmd
+        - autoanalyzer.qmd
 
 #bibliography: references.bib
 

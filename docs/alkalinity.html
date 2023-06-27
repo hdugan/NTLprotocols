@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./oldProtocols.html" rel="next">
 <link href="./waterChem.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -61,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -69,11 +71,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./waterChem.html">Water Chemistry Protocols</a></li><li class="breadcrumb-item"><a href="./alkalinity.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -81,38 +88,64 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">NTL Research Protocols</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/hdugan/NTLprotocols/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/hdugan/NTLprotocols/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./waterChem.html" class="sidebar-item-text sidebar-link">Water Chemistry Protocols</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./waterChem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Water Chemistry Protocols</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./alkalinity.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></a>
+  <a href="./alkalinity.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./oldProtocols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Old Protcols</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ammoniaNitrate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Ammonia and Nitrate/Nitrite</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./autoanalyzer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Autoanalyzer Operating Instructions</span></span></a>
   </div>
 </li>
       </ul>
@@ -120,60 +153,61 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose"><span class="toc-section-number">1.0.1</span>  Purpose:</a></li>
-  <li><a href="#sample-holding-time" id="toc-sample-holding-time" class="nav-link" data-scroll-target="#sample-holding-time"><span class="toc-section-number">1.0.2</span>  Sample Holding Time:</a></li>
-  <li><a href="#materials-required-for-titration" id="toc-materials-required-for-titration" class="nav-link" data-scroll-target="#materials-required-for-titration"><span class="toc-section-number">1.0.3</span>  Materials Required for Titration</a></li>
-  <li><a href="#glassware-preparation" id="toc-glassware-preparation" class="nav-link" data-scroll-target="#glassware-preparation"><span class="toc-section-number">1.0.4</span>  Glassware Preparation:</a></li>
-  <li><a href="#personal-protective-equipment-waste-disposal" id="toc-personal-protective-equipment-waste-disposal" class="nav-link" data-scroll-target="#personal-protective-equipment-waste-disposal"><span class="toc-section-number">1.0.5</span>  Personal Protective Equipment / Waste Disposal:</a></li>
-  <li><a href="#quality-assurancequality-control" id="toc-quality-assurancequality-control" class="nav-link" data-scroll-target="#quality-assurancequality-control"><span class="toc-section-number">1.0.6</span>  Quality Assurance/Quality Control:</a></li>
-  <li><a href="#waste-disposal" id="toc-waste-disposal" class="nav-link" data-scroll-target="#waste-disposal"><span class="toc-section-number">1.0.7</span>  Waste Disposal:</a></li>
-  <li><a href="#consumables-ordering" id="toc-consumables-ordering" class="nav-link" data-scroll-target="#consumables-ordering"><span class="toc-section-number">1.0.8</span>  Consumables Ordering:</a></li>
-  <li><a href="#preparing-for-analysis" id="toc-preparing-for-analysis" class="nav-link" data-scroll-target="#preparing-for-analysis"><span class="toc-section-number">1.1</span>  Preparing for Analysis</a>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose"><span class="header-section-number">1.0.1</span> Purpose:</a></li>
+  <li><a href="#sample-holding-time" id="toc-sample-holding-time" class="nav-link" data-scroll-target="#sample-holding-time"><span class="header-section-number">1.0.2</span> Sample Holding Time:</a></li>
+  <li><a href="#materials-required-for-titration" id="toc-materials-required-for-titration" class="nav-link" data-scroll-target="#materials-required-for-titration"><span class="header-section-number">1.0.3</span> Materials Required for Titration</a></li>
+  <li><a href="#glassware-preparation" id="toc-glassware-preparation" class="nav-link" data-scroll-target="#glassware-preparation"><span class="header-section-number">1.0.4</span> Glassware Preparation:</a></li>
+  <li><a href="#personal-protective-equipment-waste-disposal" id="toc-personal-protective-equipment-waste-disposal" class="nav-link" data-scroll-target="#personal-protective-equipment-waste-disposal"><span class="header-section-number">1.0.5</span> Personal Protective Equipment / Waste Disposal:</a></li>
+  <li><a href="#quality-assurancequality-control" id="toc-quality-assurancequality-control" class="nav-link" data-scroll-target="#quality-assurancequality-control"><span class="header-section-number">1.0.6</span> Quality Assurance/Quality Control:</a></li>
+  <li><a href="#waste-disposal" id="toc-waste-disposal" class="nav-link" data-scroll-target="#waste-disposal"><span class="header-section-number">1.0.7</span> Waste Disposal:</a></li>
+  <li><a href="#consumables-ordering" id="toc-consumables-ordering" class="nav-link" data-scroll-target="#consumables-ordering"><span class="header-section-number">1.0.8</span> Consumables Ordering:</a></li>
+  <li><a href="#preparing-for-analysis" id="toc-preparing-for-analysis" class="nav-link" data-scroll-target="#preparing-for-analysis"><span class="header-section-number">1.1</span> Preparing for Analysis</a>
   <ul class="collapse">
-  <li><a href="#remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis." id="toc-remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis." class="nav-link" data-scroll-target="#remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis."><span class="toc-section-number">1.1.1</span>  Remove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.</a></li>
-  <li><a href="#turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis" id="toc-turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis" class="nav-link" data-scroll-target="#turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis"><span class="toc-section-number">1.1.2</span>  Turn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis</a></li>
-  <li><a href="#prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis" id="toc-prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis" class="nav-link" data-scroll-target="#prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis"><span class="toc-section-number">1.1.3</span>  Prepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis</a></li>
-  <li><a href="#using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve." id="toc-using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve." class="nav-link" data-scroll-target="#using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve."><span class="toc-section-number">1.1.4</span>  Using the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.</a></li>
-  <li><a href="#make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry." id="toc-make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry." class="nav-link" data-scroll-target="#make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry."><span class="toc-section-number">1.1.5</span>  Make sure that all the sample cups and stir bars are clean and dry.</a></li>
-  <li><a href="#turn-on-the-electronic-micropipette." id="toc-turn-on-the-electronic-micropipette." class="nav-link" data-scroll-target="#turn-on-the-electronic-micropipette."><span class="toc-section-number">1.1.6</span>  Turn on the electronic micropipette.</a></li>
+  <li><a href="#remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis." id="toc-remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis." class="nav-link" data-scroll-target="#remove-samples-for-analysis-from-the-fridge-to-allow-them-to-warm-up-to-room-temperature-prior-to-analysis."><span class="header-section-number">1.1.1</span> Remove samples for analysis from the fridge to allow them to warm up to room temperature prior to analysis.</a></li>
+  <li><a href="#turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis" id="toc-turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis" class="nav-link" data-scroll-target="#turn-on-the-ph-probe-by-pressing-any-key.-make-sure-it-is-reading-in-mv-if-not-press-mode-until-mv-is-being-read.-note-put-the-meter-on-standby-after-analysis"><span class="header-section-number">1.1.2</span> Turn on the pH probe by pressing any key. Make sure it is reading in mV; if not, press ‘MODE’ until mV is being read. NOTE: put the meter on “Standby” after analysis</a></li>
+  <li><a href="#prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis" id="toc-prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis" class="nav-link" data-scroll-target="#prepare-the-ph-probe-for-analysis.-note-follow-these-directions-in-reverse-to-store-the-ph-probe-after-analysis"><span class="header-section-number">1.1.3</span> Prepare the pH probe for analysis. NOTE: follow these directions in reverse to store the pH probe after analysis</a></li>
+  <li><a href="#using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve." id="toc-using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve." class="nav-link" data-scroll-target="#using-the-ph-probe-measure-the-standard-buffers-ph-3.557-and-6.87-to-create-a-calibration-curve."><span class="header-section-number">1.1.4</span> Using the pH probe, measure the standard buffers (pH = 3.557 and 6.87) to create a calibration curve.</a></li>
+  <li><a href="#make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry." id="toc-make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry." class="nav-link" data-scroll-target="#make-sure-that-all-the-sample-cups-and-stir-bars-are-clean-and-dry."><span class="header-section-number">1.1.5</span> Make sure that all the sample cups and stir bars are clean and dry.</a></li>
+  <li><a href="#turn-on-the-electronic-micropipette." id="toc-turn-on-the-electronic-micropipette." class="nav-link" data-scroll-target="#turn-on-the-electronic-micropipette."><span class="header-section-number">1.1.6</span> Turn on the electronic micropipette.</a></li>
   </ul></li>
-  <li><a href="#analysis-of-standard" id="toc-analysis-of-standard" class="nav-link" data-scroll-target="#analysis-of-standard"><span class="toc-section-number">1.2</span>  Analysis of Standard</a>
+  <li><a href="#analysis-of-standard" id="toc-analysis-of-standard" class="nav-link" data-scroll-target="#analysis-of-standard"><span class="header-section-number">1.2</span> Analysis of Standard</a>
   <ul class="collapse">
-  <li><a href="#sec-alkalinity-step1" id="toc-sec-alkalinity-step1" class="nav-link" data-scroll-target="#sec-alkalinity-step1"><span class="toc-section-number">1.2.1</span>  Place a sample cup with a microstir bar on the analytical balance. Tare the balance.</a></li>
-  <li><a href="#pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g." id="toc-pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g." class="nav-link" data-scroll-target="#pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g."><span class="toc-section-number">1.2.2</span>  Pour and pipette 16 ± 0.1 mL of the 1000 µe/L standard into the sample cup on the balance. Remember, 16 mL = 16 g.</a></li>
-  <li><a href="#record-the-mass-of-the-standard-sample-on-the-standards-data-sheet." id="toc-record-the-mass-of-the-standard-sample-on-the-standards-data-sheet." class="nav-link" data-scroll-target="#record-the-mass-of-the-standard-sample-on-the-standards-data-sheet."><span class="toc-section-number">1.2.3</span>  Record the mass of the standard sample on the standards data sheet.</a></li>
-  <li><a href="#pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing." id="toc-pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing." class="nav-link" data-scroll-target="#pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing."><span class="toc-section-number">1.2.4</span>  Pour an aliquot of 0.5 N HCl into one of the plastic cups and cover with parafilm for storage. This will be the working acid solution you use for titrations and pre-dosing.</a></li>
-  <li><a href="#pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml" id="toc-pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml" class="nav-link" data-scroll-target="#pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml"><span class="toc-section-number">1.2.5</span>  Pre-dose the standard sample with 0.2-0.4 mL of 0.5 N HCl acid. Remember, 100 µL = 0.1 mL</a></li>
-  <li><a href="#place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate." id="toc-place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate." class="nav-link" data-scroll-target="#place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate."><span class="toc-section-number">1.2.6</span>  Place the standard sample on the stir plate and carefully position the pH probe so that is submerged in the sample without touching the sides or the microstir bar. Turn on the stir plate.</a></li>
-  <li><a href="#using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added" id="toc-using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added" class="nav-link" data-scroll-target="#using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added"><span class="toc-section-number">1.2.7</span>  Using the electronic micropipette, add 0.01 mL aliquots of HCl until the meter reads 120 mV. Keep track of the volume added!</a></li>
-  <li><a href="#add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv." id="toc-add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv." class="nav-link" data-scroll-target="#add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv."><span class="toc-section-number">1.2.8</span>  Add an additional 0.01 mL aliquot of acid to the standard sample and let the pH reading stabilize. Record the new volume and mV.</a></li>
-  <li><a href="#repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time." id="toc-repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time." class="nav-link" data-scroll-target="#repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time."><span class="toc-section-number">1.2.9</span>  Repeat this process for 10 total aliquots of 0.01 mL of acid. Record the volume and mV reading each time.</a></li>
-  <li><a href="#sec-alkalinity-step10" id="toc-sec-alkalinity-step10" class="nav-link" data-scroll-target="#sec-alkalinity-step10"><span class="toc-section-number">1.2.10</span>  Cleaning up the standard sample:</a></li>
-  <li><a href="#repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings." id="toc-repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings." class="nav-link" data-scroll-target="#repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings."><span class="toc-section-number">1.2.11</span>  Repeat steps from <span>Section&nbsp;1.2.1</span> - <span>Section&nbsp;1.2.10</span> twice more for a total of three standard sample readings.</a></li>
-  <li><a href="#compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager." id="toc-compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager." class="nav-link" data-scroll-target="#compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager."><span class="toc-section-number">1.2.12</span>  Compare the amount of acid added to reach 120 mV and the mV readings thereafter. If the standard samples are wildly different from each other, the pH probe or the standard solution may be compromised. Do not continue with sample analysis in this instance and seek guidance from the Lab Manager.</a></li>
+  <li><a href="#sec-alkalinity-step1" id="toc-sec-alkalinity-step1" class="nav-link" data-scroll-target="#sec-alkalinity-step1"><span class="header-section-number">1.2.1</span> Place a sample cup with a microstir bar on the analytical balance. Tare the balance.</a></li>
+  <li><a href="#pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g." id="toc-pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g." class="nav-link" data-scroll-target="#pour-and-pipette-16-0.1-ml-of-the-1000-µel-standard-into-the-sample-cup-on-the-balance.-remember-16-ml-16-g."><span class="header-section-number">1.2.2</span> Pour and pipette 16 ± 0.1 mL of the 1000 µe/L standard into the sample cup on the balance. Remember, 16 mL = 16 g.</a></li>
+  <li><a href="#record-the-mass-of-the-standard-sample-on-the-standards-data-sheet." id="toc-record-the-mass-of-the-standard-sample-on-the-standards-data-sheet." class="nav-link" data-scroll-target="#record-the-mass-of-the-standard-sample-on-the-standards-data-sheet."><span class="header-section-number">1.2.3</span> Record the mass of the standard sample on the standards data sheet.</a></li>
+  <li><a href="#pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing." id="toc-pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing." class="nav-link" data-scroll-target="#pour-an-aliquot-of-0.5-n-hcl-into-one-of-the-plastic-cups-and-cover-with-parafilm-for-storage.-this-will-be-the-working-acid-solution-you-use-for-titrations-and-pre-dosing."><span class="header-section-number">1.2.4</span> Pour an aliquot of 0.5 N HCl into one of the plastic cups and cover with parafilm for storage. This will be the working acid solution you use for titrations and pre-dosing.</a></li>
+  <li><a href="#pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml" id="toc-pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml" class="nav-link" data-scroll-target="#pre-dose-the-standard-sample-with-0.2-0.4-ml-of-0.5-n-hcl-acid.-remember-100-µl-0.1-ml"><span class="header-section-number">1.2.5</span> Pre-dose the standard sample with 0.2-0.4 mL of 0.5 N HCl acid. Remember, 100 µL = 0.1 mL</a></li>
+  <li><a href="#place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate." id="toc-place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate." class="nav-link" data-scroll-target="#place-the-standard-sample-on-the-stir-plate-and-carefully-position-the-ph-probe-so-that-is-submerged-in-the-sample-without-touching-the-sides-or-the-microstir-bar.-turn-on-the-stir-plate."><span class="header-section-number">1.2.6</span> Place the standard sample on the stir plate and carefully position the pH probe so that is submerged in the sample without touching the sides or the microstir bar. Turn on the stir plate.</a></li>
+  <li><a href="#using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added" id="toc-using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added" class="nav-link" data-scroll-target="#using-the-electronic-micropipette-add-0.01-ml-aliquots-of-hcl-until-the-meter-reads-120-mv.-keep-track-of-the-volume-added"><span class="header-section-number">1.2.7</span> Using the electronic micropipette, add 0.01 mL aliquots of HCl until the meter reads 120 mV. Keep track of the volume added!</a></li>
+  <li><a href="#add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv." id="toc-add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv." class="nav-link" data-scroll-target="#add-an-additional-0.01-ml-aliquot-of-acid-to-the-standard-sample-and-let-the-ph-reading-stabilize.-record-the-new-volume-and-mv."><span class="header-section-number">1.2.8</span> Add an additional 0.01 mL aliquot of acid to the standard sample and let the pH reading stabilize. Record the new volume and mV.</a></li>
+  <li><a href="#repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time." id="toc-repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time." class="nav-link" data-scroll-target="#repeat-this-process-for-10-total-aliquots-of-0.01-ml-of-acid.-record-the-volume-and-mv-reading-each-time."><span class="header-section-number">1.2.9</span> Repeat this process for 10 total aliquots of 0.01 mL of acid. Record the volume and mV reading each time.</a></li>
+  <li><a href="#sec-alkalinity-step10" id="toc-sec-alkalinity-step10" class="nav-link" data-scroll-target="#sec-alkalinity-step10"><span class="header-section-number">1.2.10</span> Cleaning up the standard sample:</a></li>
+  <li><a href="#repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings." id="toc-repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings." class="nav-link" data-scroll-target="#repeat-steps-from-sec-alkalinity-step1---sec-alkalinity-step10-twice-more-for-a-total-of-three-standard-sample-readings."><span class="header-section-number">1.2.11</span> Repeat steps from <span>Section&nbsp;1.2.1</span> - <span>Section&nbsp;1.2.10</span> twice more for a total of three standard sample readings.</a></li>
+  <li><a href="#compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager." id="toc-compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager." class="nav-link" data-scroll-target="#compare-the-amount-of-acid-added-to-reach-120-mv-and-the-mv-readings-thereafter.-if-the-standard-samples-are-wildly-different-from-each-other-the-ph-probe-or-the-standard-solution-may-be-compromised.-do-not-continue-with-sample-analysis-in-this-instance-and-seek-guidance-from-the-lab-manager."><span class="header-section-number">1.2.12</span> Compare the amount of acid added to reach 120 mV and the mV readings thereafter. If the standard samples are wildly different from each other, the pH probe or the standard solution may be compromised. Do not continue with sample analysis in this instance and seek guidance from the Lab Manager.</a></li>
   </ul></li>
-  <li><a href="#analysis-of-samples" id="toc-analysis-of-samples" class="nav-link" data-scroll-target="#analysis-of-samples"><span class="toc-section-number">1.3</span>  Analysis of Samples</a></li>
-  <li><a href="#sec-alkalinity-calculations" id="toc-sec-alkalinity-calculations" class="nav-link" data-scroll-target="#sec-alkalinity-calculations"><span class="toc-section-number">1.4</span>  Calculations</a>
+  <li><a href="#analysis-of-samples" id="toc-analysis-of-samples" class="nav-link" data-scroll-target="#analysis-of-samples"><span class="header-section-number">1.3</span> Analysis of Samples</a></li>
+  <li><a href="#sec-alkalinity-calculations" id="toc-sec-alkalinity-calculations" class="nav-link" data-scroll-target="#sec-alkalinity-calculations"><span class="header-section-number">1.4</span> Calculations</a>
   <ul class="collapse">
-  <li><a href="#use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd." id="toc-use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd." class="nav-link" data-scroll-target="#use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd."><span class="toc-section-number">1.4.1</span>  Use the calibration buffers to calculate a standard curve relating mV (millivolts) to pH. Calculate the slope (mstd) and intercept (bstd).</a></li>
-  <li><a href="#using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std" id="toc-using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std" class="nav-link" data-scroll-target="#using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std"><span class="toc-section-number">1.4.2</span>  Using the standard curve coefficients, calculate the pH for each point in the sample titration. <span class="math display">\[ pH = {(mV-\ b_{std})\over m_{std}} \]</span></a></li>
-  <li><a href="#the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph" id="toc-the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph" class="nav-link" data-scroll-target="#the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph"><span class="toc-section-number">1.4.3</span>  The pH from the sample titration, the initial sample volume (mL), and volume of acid added (mL) are used to calculate F1 for each point in the sample titration. <span class="math display">\[ F1 = 1000 \times {Volume Acid Added + Sample Volume \over Sample Volume} \times 10^{-pH} \]</span></a></li>
-  <li><a href="#sec-alkalinity-regress" id="toc-sec-alkalinity-regress" class="nav-link" data-scroll-target="#sec-alkalinity-regress"><span class="toc-section-number">1.4.4</span>  Regress the volume of acid added (mL) versus F1. The intercept (bF1) of this regression (mL) will be used to calculate alkalinity.</a></li>
-  <li><a href="#calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1." id="toc-calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1." class="nav-link" data-scroll-target="#calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1."><span class="toc-section-number">1.4.5</span>  Calculate alkalinity (µEg/L) using molarity of the titration acid (nominally 0.05 N, but needs to be determined for each batch), initial sample volume (mL), and <span class="math inline">\(b_{F1}\)</span>.</a></li>
+  <li><a href="#use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd." id="toc-use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd." class="nav-link" data-scroll-target="#use-the-calibration-buffers-to-calculate-a-standard-curve-relating-mv-millivolts-to-ph.-calculate-the-slope-mstd-and-intercept-bstd."><span class="header-section-number">1.4.1</span> Use the calibration buffers to calculate a standard curve relating mV (millivolts) to pH. Calculate the slope (mstd) and intercept (bstd).</a></li>
+  <li><a href="#using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std" id="toc-using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std" class="nav-link" data-scroll-target="#using-the-standard-curve-coefficients-calculate-the-ph-for-each-point-in-the-sample-titration.-ph-mv--b_stdover-m_std"><span class="header-section-number">1.4.2</span> Using the standard curve coefficients, calculate the pH for each point in the sample titration. <span class="math display">\[ pH = {(mV-\ b_{std})\over m_{std}} \]</span></a></li>
+  <li><a href="#the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph" id="toc-the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph" class="nav-link" data-scroll-target="#the-ph-from-the-sample-titration-the-initial-sample-volume-ml-and-volume-of-acid-added-ml-are-used-to-calculate-f1-for-each-point-in-the-sample-titration.-f1-1000-times-volume-acid-added-sample-volume-over-sample-volume-times-10-ph"><span class="header-section-number">1.4.3</span> The pH from the sample titration, the initial sample volume (mL), and volume of acid added (mL) are used to calculate F1 for each point in the sample titration. <span class="math display">\[ F1 = 1000 \times {Volume Acid Added + Sample Volume \over Sample Volume} \times 10^{-pH} \]</span></a></li>
+  <li><a href="#sec-alkalinity-regress" id="toc-sec-alkalinity-regress" class="nav-link" data-scroll-target="#sec-alkalinity-regress"><span class="header-section-number">1.4.4</span> Regress the volume of acid added (mL) versus F1. The intercept (bF1) of this regression (mL) will be used to calculate alkalinity.</a></li>
+  <li><a href="#calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1." id="toc-calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1." class="nav-link" data-scroll-target="#calculate-alkalinity-µegl-using-molarity-of-the-titration-acid-nominally-0.05-n-but-needs-to-be-determined-for-each-batch-initial-sample-volume-ml-and-b_f1."><span class="header-section-number">1.4.5</span> Calculate alkalinity (µEg/L) using molarity of the titration acid (nominally 0.05 N, but needs to be determined for each batch), initial sample volume (mL), and <span class="math inline">\(b_{F1}\)</span>.</a></li>
   </ul></li>
-  <li><a href="#sec-alkalinity-preparation" id="toc-sec-alkalinity-preparation" class="nav-link" data-scroll-target="#sec-alkalinity-preparation"><span class="toc-section-number">1.5</span>  Preparation of Standards and Reagents</a>
+  <li><a href="#sec-alkalinity-preparation" id="toc-sec-alkalinity-preparation" class="nav-link" data-scroll-target="#sec-alkalinity-preparation"><span class="header-section-number">1.5</span> Preparation of Standards and Reagents</a>
   <ul class="collapse">
-  <li><a href="#preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration" id="toc-preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration" class="nav-link" data-scroll-target="#preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration"><span class="toc-section-number">1.5.1</span>  Preparation of 1000 µEq L<sup>-1</sup> standard for alkalinity titration</a></li>
-  <li><a href="#preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration" id="toc-preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration" class="nav-link" data-scroll-target="#preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration"><span class="toc-section-number">1.5.2</span>  Preparing 0.05 M HCl titration solution or alkalinity titration</a></li>
-  <li><a href="#standardizing-the-hcl-titration-solution" id="toc-standardizing-the-hcl-titration-solution" class="nav-link" data-scroll-target="#standardizing-the-hcl-titration-solution"><span class="toc-section-number">1.5.3</span>  Standardizing the HCl titration solution</a></li>
+  <li><a href="#preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration" id="toc-preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration" class="nav-link" data-scroll-target="#preparation-of-1000-µeq-l-1-standard-for-alkalinity-titration"><span class="header-section-number">1.5.1</span> Preparation of 1000 µEq L<sup>-1</sup> standard for alkalinity titration</a></li>
+  <li><a href="#preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration" id="toc-preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration" class="nav-link" data-scroll-target="#preparing-0.05-m-hcl-titration-solution-or-alkalinity-titration"><span class="header-section-number">1.5.2</span> Preparing 0.05 M HCl titration solution or alkalinity titration</a></li>
+  <li><a href="#standardizing-the-hcl-titration-solution" id="toc-standardizing-the-hcl-titration-solution" class="nav-link" data-scroll-target="#standardizing-the-hcl-titration-solution"><span class="header-section-number">1.5.3</span> Standardizing the HCl titration solution</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">1.6</span>  References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">1.6</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -182,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-alkalinity" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></span></h1>
+<h1 class="title"><span id="sec-alkalinity" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Alkalinity</span></span></h1>
 </div>
 
 
@@ -599,9 +633,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -666,6 +714,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -712,6 +846,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./oldProtocols.html" class="pagination-link">
+        <span class="nav-page-text">Old Protcols</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
