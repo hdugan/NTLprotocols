@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/index.html</loc>
-    <lastmod>2023-06-27T19:33:40.231Z</lastmod>
+    <lastmod>2023-06-29T18:18:11.873Z</lastmod>
   </url>
   <url>
-    <loc>https://hdugan.github.io/NTLprotocols/waterChem.html</loc>
-    <lastmod>2023-06-27T19:33:40.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdugan.github.io/NTLprotocols/alkalinity.html</loc>
-    <lastmod>2023-06-27T19:33:40.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdugan.github.io/NTLprotocols/oldProtocols.html</loc>
-    <lastmod>2023-06-27T19:33:40.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdugan.github.io/NTLprotocols/ammoniaNitrate.html</loc>
-    <lastmod>2023-06-27T19:33:40.255Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hdugan.github.io/NTLprotocols/autoanalyzer.html</loc>
-    <lastmod>2023-06-27T19:33:40.258Z</lastmod>
+    <loc>https://hdugan.github.io/NTLprotocols/fieldProtocols.html</loc>
+    <lastmod>2023-06-29T18:18:11.876Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/benthicMacroinvertebrates.html</loc>
-    <lastmod>2023-06-27T19:33:40.269Z</lastmod>
+    <lastmod>2023-06-29T18:18:11.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/biologicalProtocols.html</loc>
+    <lastmod>2023-06-29T18:18:11.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/phytoplankton.html</loc>
+    <lastmod>2023-06-29T18:18:11.893Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/zooplankton.html</loc>
+    <lastmod>2023-06-29T18:18:11.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/waterChem.html</loc>
+    <lastmod>2023-06-29T18:18:11.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hdugan.github.io/NTLprotocols/alkalinity.html</loc>
+    <lastmod>2023-06-29T18:18:11.915Z</lastmod>
   </url>
   <url>
     <loc>https://hdugan.github.io/NTLprotocols/NTL-Research-Protocols.pdf</loc>
-    <lastmod>2023-06-27T19:33:40.152Z</lastmod>
+    <lastmod>2023-06-29T18:18:11.808Z</lastmod>
   </url>
 </urlset>

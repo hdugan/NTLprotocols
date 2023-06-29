@@ -6,20 +6,22 @@ project:
 book:
   title: "NTL Research Protocols"
   author: "NTL-LTER"
-  date: "6/1/2023"
+  date: "6/29/2023"
   site-url: https://hdugan.github.io/NTLprotocols/
   repo-url: https://github.com/hdugan/NTLprotocols/
   chapters:
     - index.qmd
-    
+    - part: fieldProtocols.qmd
+      chapters:
+        - benthicMacroinvertebrates.qmd
+    - part: biologicalProtocols.qmd
+      chapters:
+        - phytoplankton.qmd
+        - zooplankton.qmd
     - part: waterChem.qmd
       chapters:
         - alkalinity.qmd
-    - part: oldProtocols.qmd
-      chapters:
-        - ammoniaNitrate.qmd
-        - autoanalyzer.qmd
-        - benthicMacroinvertebrates.qmd
+
 
 #bibliography: references.bib
 

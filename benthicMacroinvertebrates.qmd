@@ -1,5 +1,7 @@
 # Benthic Macroinvertebrates {#sec-benthicMacroinvertebrates}
 
+Revised: Unknown
+
 ### Purpose:
 
 We sample for benthic macroinvertebrates in Trout, Crystal, and Sparkling lakes using Hester-Dendy samplers. We set samplers at four to six shoreline sites in 1 meter water depth, and at the deepest part of the lake. The same sampling sites are used every year. Three Dendy samplers per site are deployed for approximately one month beginning around the second week of August. Upon collection, we preserve the contents of each sampler in ethanol, and archive the samples in the Zoology museum.

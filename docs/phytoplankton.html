@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Hilary Dugan">
+
+<title>NTL Research Protocols - 2&nbsp; Phytoplankton</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./zooplankton.html" rel="next">
+<link href="./biologicalProtocols.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./biologicalProtocols.html">Biological Protocols</a></li><li class="breadcrumb-item"><a href="./phytoplankton.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Phytoplankton</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">NTL Research Protocols</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/hdugan/NTLprotocols/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./fieldProtocols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Field Protocols</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./benthicMacroinvertebrates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Benthic Macroinvertebrates</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./biologicalProtocols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Biological Protocols</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./phytoplankton.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Phytoplankton</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zooplankton.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Zooplankton</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./waterChem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Water Chemistry Protocols</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./alkalinity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Alkalinity</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#pooling" id="toc-pooling" class="nav-link active" data-scroll-target="#pooling"><span class="header-section-number">2.0.1</span> Pooling:</a></li>
+  <li><a href="#slide-mounting-and-counting" id="toc-slide-mounting-and-counting" class="nav-link" data-scroll-target="#slide-mounting-and-counting"><span class="header-section-number">2.0.2</span> Slide mounting and counting</a></li>
+  <li><a href="#phytoplankton-methods-hpma" id="toc-phytoplankton-methods-hpma" class="nav-link" data-scroll-target="#phytoplankton-methods-hpma"><span class="header-section-number">2.0.3</span> Phytoplankton Methods (HPMA)</a></li>
+  <li><a href="#quality-assurance-plan" id="toc-quality-assurance-plan" class="nav-link" data-scroll-target="#quality-assurance-plan"><span class="header-section-number">2.0.4</span> Quality Assurance Plan</a></li>
+  <li><a href="#counting" id="toc-counting" class="nav-link" data-scroll-target="#counting"><span class="header-section-number">2.0.5</span> Counting</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.0.6</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-zooplankton" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Phytoplankton</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Revised: Unknown</p>
+<section id="pooling" class="level3" data-number="2.0.1">
+<h3 data-number="2.0.1" class="anchored" data-anchor-id="pooling"><span class="header-section-number">2.0.1</span> Pooling:</h3>
+<p>Label 250ml amber plastic bottles with preprinted labels. Add sample date to labels and cover with clear contact paper.</p>
+<p>Fill out the pooling information form using the hypsometric tables to calculate % Lake Volume represented by each sample that has been collected. The last depth range always goes to bottom of lake. Check that ‘% lake volume’ column totals 100. We want to create a 250 ml pooled sample, so the % lake volume numbers are multiplied by 2.5 to obtain the subsample volumes needed.</p>
+<p>Invert sample bottle several times to mix. Use a graduated cylinder to measure out the required volume from each sample, and put it in the Pooled Sample jar. Rinse the graduated cylinder with RO water before pooling another lake.</p>
+<p>Store pooled samples until the end of the year. Discard the remainder of the pre-pooled samples.</p>
+<p>Send pooled samples to Phycotech the following spring, once danger of freezing during UPS transport is past. At Phycotech they are made into permanent slide mounts. We archive the slides in the UW Zoology museum. We do not archive any wet phytoplankton samples.</p>
+</section>
+<section id="slide-mounting-and-counting" class="level3" data-number="2.0.2">
+<h3 data-number="2.0.2" class="anchored" data-anchor-id="slide-mounting-and-counting"><span class="header-section-number">2.0.2</span> Slide mounting and counting</h3>
+<p>PhycoTech is the only commercial lab in North America to utilize a unique proprietary permanent mounting technique for archiving and preparing samples for enumeration. These mounts allow you to get further data at a later date, as well as maintain a permanent archive of the sample that is easily stored, maintains fluorescence, and does not degrade with time (100+ years). Permanent algal mounts allow archiving of diatoms AND soft algae. All periphyton samples to species include both HPMA mounts for the whole sample and Naphrax, acid cleaned mounts, for diatom identification to species level. Zooplankton samples are also permanently mounted using a slightly different process. Our algal taxonomist, Dr.&nbsp;Ann St.&nbsp;Amand, has over 20 years of experience and has processed over 13,000 periphyton, phytoplankton, bacteria and zooplankton samples from both freshwater and marine systems. Dr.&nbsp;St.&nbsp;Amand is the only person who enumerates algal and zooplankton samples at PhycoTech, ensuring data integrity and consistency. Our In-house key and publication library numbers in the thousands, including the most current references. We have processed several state wide surveys in the Mid-West, West and Florida for phytoplankton and periphyton, each comprised of several hundreds of samples. PhycoTech also consults with Federal and State Agencies, including the Corps of Engineers, on experimental design and QA/QC issues. We process samples for general water quality, as well as the determination of exotic, toxic or taste and odor producing blue-green and chrysophyte algae. PhycoTech has extensive experience enumerating Prymesium parvum, a difficult to identify, toxic haptophyte from the Southwestern United States.</p>
+<p>There are two state of the art microscopes used to process algal and zooplankton samples: an Olympus BX60, research-grade compound microscope equipped with Nomarski optics (40x, 100x, 200x, 400x, and 1000x), Phase Optics (400x, 1000x), a 1.25-2X multiplier, epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Microfire digital camera attached, and an Olympus BHT, research-grade compound microscope equipped with Nomarski optics (100x, 200x, 400x, and 1000x), Phase Optics (400x), epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Ricoh Camera Back attached using traditional slide and print film. For larger material PhycoTech also has a dissecting microscope. We have access to Notre Dame’s SEM facility as well. Our computer network is a newly installed Novel Network connected to 6 new 2.4+ Gig workstations, with special adaptations for graphics and extra memory for efficiently handling our new data management system, ASA. All count related data is backed up daily to different media, with on-site and off-site copies weekly.</p>
+<p>PhycoTech is now utilizing its proprietary data management software, ASA. This unique, powerful program not only tracks samples from receipt to data delivery within the same software program (every processing step is documented with initials and date, from Login to Analysis), but also provides significantly more information for each sample. With ASA, we are able to provide not only biovolume estimates, but volume and surface area estimates as well. Our biovolume, volume and area formulas are the most complete set available commercially, drawn from a variety of sources including current primary literature (See our Technical Approach), custom calculations designed in-house for complicated morphologies (e.g.&nbsp;Ceratium) and independently derived calculations from an Outside Engineering Firm that specializes in volumetric studies (e.g.&nbsp;area of a prolate, oblate ellipsoid). We also now provide data summaries on phyla, division, class down to taxa level automatically, depending on the analysis requested. In addition, our new program has the capability to calculate over 72 different diversity indices and summary statistics, including Shannon, Maragalef, Alpha and Berger_Parker Diversity measures, Species Richness and Evenness, Pollution Tolerance for diatoms, Environmental Tolerance for algae, Siltation Index for diatoms, Pollution Tolerance for diatoms, Palmer Index, ACC:CMN for diatoms, in addition to others. All taxonomic information from organism down to coloniality and structure is provided in the data set. All indices are calculated on an abundance (both Natural units/mL and Cells/mL) and total biovolume, biomass, volume and area basis, if biovolume/biomass is measured. QA/QC reports are generated from within the program, comparing dominant taxa, reporting distribution checks and doing similarity calculations between the original sample and QA/QC sample. All slides are labeled with a unique Tracking ID code that appears on every report, data file and database generated within the laboratory.</p>
+<p>Reports are provided in pdf format with summary graphics by group for each sample. Data files are provided in Excel format or other spreadsheet or database formats requested by the customer.</p>
+</section>
+<section id="phytoplankton-methods-hpma" class="level3" data-number="2.0.3">
+<h3 data-number="2.0.3" class="anchored" data-anchor-id="phytoplankton-methods-hpma"><span class="header-section-number">2.0.3</span> Phytoplankton Methods (HPMA)</h3>
+<p>The HPMA method for producing algal sample slides provides an optically clear background while permanently infiltrating and preserving the sample for archival purposes (See references). Mounting distortion is minimal and the method provides the advantage of being able to go 100x to 1000x on the same specimen. Wet sample is always maintained in case clarification of identification is necessary. We strongly encourage our customers to use glutaraldehyde (final concentration of 0.25-0.50 %) for preservation of algal samples. It offers minimal distortion and allows the use of epifluorescence on algal samples while counting, which can dramatically improve the final results.</p>
+<section id="general-protocol-for-making-permanent-algal-mounts-using-hpma-equipment" class="level4" data-number="2.0.3.1">
+<h4 data-number="2.0.3.1" class="anchored" data-anchor-id="general-protocol-for-making-permanent-algal-mounts-using-hpma-equipment"><span class="header-section-number">2.0.3.1</span> General protocol for making permanent algal mounts using HPMA equipment</h4>
+<p>Bunsen burner Beaker tongs Ice bath Pyrex beakers (150 ML) 2 Dropper bottles Mixed ester nitrocellulose filters (0.45 µm, 25 mm, plain) Glass slides (25 mm x 75 mm) Avery Laser Labels: #2181 Glass coverslips (25 mm x 25 mm, #1 or #1.5) Full view series support/drying racks (102 pin) Graduate cylinders Dumont forceps Glass filter towers (25 mL) Rubber stoppers (#2, #10) Filtration Manifold (6 station) Vacuum pump (plus appropriate plumbing, 25-50 mm Hg) Drying oven (60”C, not forced air) Hood</p>
+<p>REAGENTS: HPMA (2-hydroxypropyl methacrylate) Catalyst (azo-bis-iso-butyronitrile) Iodine Glutaraldehyde (25%, general grade) Distilled water</p>
+<p>CAUTION: Store HPMA and catalyst in refrigerator. Keep glutaraldehyde under hood.</p>
+</section>
+<section id="method" class="level4" data-number="2.0.3.2">
+<h4 data-number="2.0.3.2" class="anchored" data-anchor-id="method"><span class="header-section-number">2.0.3.2</span> Method</h4>
+<p>SAMPLE:</p>
+<ol type="1">
+<li>Add enough glutaraldehyde to bring the final concentration to approximately 0.25% to 0.5% (for periphyton samples or “bloom tows”, increase the final concentration to approximately 0.5%-1%). Keep the sample dark and refrigerate if possible.</li>
+<li>Remove the sample from the refrigerator and let it warm to room temperature before mounting.</li>
+</ol>
+<p>RESIN:</p>
+<ol type="1">
+<li>Prepare ice bath in plastic tub.</li>
+<li>Measure 25 mL of HPMA and 0.025 g of catalyst into a 150 mL beaker.</li>
+<li>Deal with HPMA under hood and use gloves for both HPMA and catalyst.</li>
+<li>Under hood, light Bunsen burner and set to high flame.</li>
+</ol>
+<p>Heat HPMA (with catalyst added) until you see density currents starting to form. Cool mixture by swirling in ice bath, and return to flame. DO NOT LET MIXTURE BOIL!!!!!. Keep heating and cooling, alternately, until the mixture is approximately the thickness of Kayro syrup. Make sure the mixture is cool when it reaches this point or it will polymerize further. Transfer to a clean, glass jar for storage until usage. The entire procedure takes 2 to 1 hour, depending on how brave you are.</p>
+<p>CAUTION!! THIS REACTION IS EXOTHERMIC ONCE IT REACHES A CERTAIN TEMPERATURE AND WILL TAKE PLACE ALMOST EXPLOSIVELY IF YOU LET IT GET TOO HOT. THE FUMES ARE TOXIC. KEEP WATER OUT OF THE PRE-POLYMER. NOTE: Wash beakers in ethanol by letting them soak for 24 to 48 hours twice; wash with soap and rinse with distilled water. Be careful to keep dust out of the beakers when making the resin. Fill 2 amber dropper bottles with resin. Add crystalline iodine to one of the bottles until the resin is nearly opaque. The iodine-resin will be slightly thicker than normal resin. (Resin is light sensitive – be sure to cover the extra resin with foil.)</p>
+</section>
+<section id="slides" class="level4" data-number="2.0.3.3">
+<h4 data-number="2.0.3.3" class="anchored" data-anchor-id="slides"><span class="header-section-number">2.0.3.3</span> Slides</h4>
+<p>MAKE THREE SLIDES FOR EACH SAMPLE – SHAKE SAMPLE WELL (100 TIMES-phyt. or 200 TIMES-peri.). Use Millipore 6-place stainless steel manifold and Millipore Filtration Towers. 1. Put membrane filters onto filtration bases and wet with distilled water. Drain excess water through filter. If filter has any opaque areas (very white when wet), replace with another filter. 2. Assemble filter towers. 3. Measure out phytoplankton sample using micropipetor or macropipetor (use graduate cylinder for very dilute samples, e.g.&nbsp;30+ mL). For periphyton samples, remove sample with micropipetor (usually from 0.05-0.5 mL) and dilute to 10 mL in a graduated cylinder with distilled water. Agitate to mix. Choose sample volume so that each field at 200x contains approximately 20-30 cells. 4. Add sample to the tower and open valve. For periphyton samples or large phytoplankton samples using cylinders, rinse graduate cylinder into tower. Filter sample until water just clears the filter surface. Close valve and remove filtration tower just after the water disappears from the inner edge of the tower. 5. Place filter, FACE down, on a cover slip (# 1.5). Be careful to avoid bubbles under the filter. 6. Samples: 1. Samples preserved in glutaraldehyde: 3 slides: Add 1-2 drops of clear resin to the back of the filter, and rotate the cover slip until the resin covers the back of the filter. 2. Samples preserved in lugols: 3 slides: Add 1-2 drops of the iodine-resin to the back of the filter, and rotate the cover slip until the resin covers the back of the filter.</p>
+<ol start="7" type="1">
+<li>Place cover slips on the drying rack and place in drying oven for 12 to 24 hours.</li>
+<li>Remove cover slips from oven. Add 1 drop of resin to the filter side of the cover slip and attach to a labeled slide. Add as little resin as possible to cover the filter surface!!!! The less resin, the faster it will polymerize and the better the prep.</li>
+<li>Put slides in the oven and let polymerize for approximately 24 hours. If the resin is not completely polymerized, replace and heat for as long as 2-3 days. Make sure that the slides are completely polymerized before you store them or they will run and/or evaporate!!!! And believe me, its a mess!!!!</li>
+<li>Label slides with ASA generated labels. All slides are labeled with the Tracking ID, which appears on all reports, data files and in all databases associated with that sample bottle and associated data.</li>
+</ol>
+</section>
+<section id="acid-cleaning-and-making-naphrax-slides-for-diatoms" class="level4" data-number="2.0.3.4">
+<h4 data-number="2.0.3.4" class="anchored" data-anchor-id="acid-cleaning-and-making-naphrax-slides-for-diatoms"><span class="header-section-number">2.0.3.4</span> Acid cleaning and making naphrax slides for diatoms</h4>
+<p>Phytoplankton/Periphyton:</p>
+<p>If species identifications for diatoms are required or unknown diatom taxa are present, acid cleaned mounts in Naphrax are prepared according to the following procedure:</p>
+<ol type="1">
+<li>Take 5-20 mL of sample and transfer to a clean, 250 mL Pyrex beaker in the hood. Add room-temperature nitric acid to a total volume of 40-60 mL.</li>
+<li>Cover with a watchglass.</li>
+<li>After at least 24 hours has elapsed, carefully siphon off acid using glass siphon. Dilute acid and discard down drain with lots of extra water (Let water run for a minimum of 30 minutes after discarding acid).</li>
+<li>A. Transfer remaining sample to a centrifuge tube and bring volume up to 14 mL with distilled water. Cap tube, mix well, and centrifuge at 3000 RPM for 5 minutes. Remove tube and carefully remove supernatant to the 2 mL volume marker with a micropipetor. Bring volume back up to 14 mL with distilled water, mix well, and repeat process. Complete a minimum of 6 centrifuge cycles. Check pH. If pH is lower than 7, repeat centrifuging process until the pH reaches 7.</li>
+</ol>
+<ul>
+<li>On the final cycle, remove supernatant to the 1 mL volume marker and bring volume back to 5 mL. Mix well to suspend pellet and decant into the storage bottle. Rinse the centrifuge tube 2 more times with 5 mL of distilled water and decant into the storage bottle. The total volume of the cleaned sample should be 15 mL. If the sample is very sparse, lower final volume.</li>
+</ul>
+<ol start="5" type="1">
+<li>Using a pasture pipette, transfer enough sample to a cover slip (#1, 22mm square) to cover the entire area and place in a vibration-free area until dry.</li>
+<li>Add 1 small drop of Naphrax to the cover slip and invert onto a slide. Compress the coverslip with a clean object and place in an oven (60oC) for 1-3 hours, or finish on a hot plate.</li>
+<li>Ring cover slip with fingernail polish and store.</li>
+<li>Identify taxa at 1000x under oil immersion. Reference taxa are identified using a diamond scribing objective and permanent ink labels.</li>
+</ol>
+</section>
+</section>
+<section id="quality-assurance-plan" class="level3" data-number="2.0.4">
+<h3 data-number="2.0.4" class="anchored" data-anchor-id="quality-assurance-plan"><span class="header-section-number">2.0.4</span> Quality Assurance Plan</h3>
+<section id="taxonomic-accuracy" class="level4" data-number="2.0.4.1">
+<h4 data-number="2.0.4.1" class="anchored" data-anchor-id="taxonomic-accuracy"><span class="header-section-number">2.0.4.1</span> Taxonomic Accuracy</h4>
+<p>Dr.&nbsp;Ann St.&nbsp;Amand, a senior level phycologist and taxonomic expert, will perform all phytoplankton, periphyton, and zooplankton identifications, enumerations, and biovolume/biomass measurements. Dr.&nbsp;St.&nbsp;Amand has published extensively in the area of algal ecology and has processed over thirteen-thousand algal and bacterial samples, and is qualified to analyze zooplankton and macroinvertebrates. Outside taxonomists will be utilized for taxonomic verifications when necessary.</p>
+<p>All samples are initially test mounted for counting density before final mounting. Any major questionable IDs are noted in the database during counting, and indicated on the report as uncertain for taxonomic clarity. If enough sample is present, samples are sent out to other taxonomists for taxonomic confirmation. Distribution is checked on approximately every tenth sample, during the counting process. All biovolume calculations have been verified by comparing with current literature, and by comparing calculations using outside mathematical consultations.</p>
+</section>
+<section id="sample-custody" class="level4" data-number="2.0.4.2">
+<h4 data-number="2.0.4.2" class="anchored" data-anchor-id="sample-custody"><span class="header-section-number">2.0.4.2</span> Sample Custody</h4>
+<p>The chain-of-custody requirements for all laboratory operations for each sample (broadly interpreted to include procedures for the preparation of reagents or supplies which become an integral part of the sample, record keeping associated with sample acquisition, documentation of sample preservation, sample labeling, sample tracking to establish chain-of-custody, and shipping and packing) and laboratory analysis (i.e., laboratory coding, storage, check-out, and documentation of sample movement) will be fully documented in our data management software. Each sample received will be assigned an individual tracking number. The sample bottle, chain-of-custody, and sample log sheet which accompanies each sample sent are then used in conjunction with one another, to enter the samples individual tracking number and all available sample information, into our sample database, ASA. The database allows for quick and accurate tracking of each sample received by PhycoTech. Dated and initialed entries by appropriate personnel on all worksheets and in the log database are required for data validation. All information entered into ASA is fully QA/QC’d for content and accuracy. Sample receipt is confirmed with each customer. All slides are labeled with the Tracking ID, which appears on all reports, data files and in all databases associated with that sample bottle and associated data.</p>
+</section>
+</section>
+<section id="counting" class="level3" data-number="2.0.5">
+<h3 data-number="2.0.5" class="anchored" data-anchor-id="counting"><span class="header-section-number">2.0.5</span> Counting</h3>
+<section id="microscope" class="level4" data-number="2.0.5.1">
+<h4 data-number="2.0.5.1" class="anchored" data-anchor-id="microscope"><span class="header-section-number">2.0.5.1</span> Microscope:</h4>
+<p>There are two microscopes used to process algal samples: an Olympus BX60, research-grade compound microscope equipped with Nomarski optics (40x, 100x, 200x, 400x, and 1000x), Phase Optics (400x, 1000x), a 1.25-2X multiplier, epifluorescence (blue, green, and UV excitation) and a trinocular head for photography, with a Microfire digital camera attached. For larger material PhycoTech also has a dissecting microscope. The BX60 is the primary microscope used for algal and zooplankton identification. There is also an Olympus BHT, research-grade compound microscope equipped with Nomarski optics (100x, 200x, 400x, and 1000x), Phase Optics (400x), epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Ricoh Camera Back attached using traditional slide and print film.</p>
+</section>
+<section id="data-entry" class="level4" data-number="2.0.5.2">
+<h4 data-number="2.0.5.2" class="anchored" data-anchor-id="data-entry"><span class="header-section-number">2.0.5.2</span> Data Entry:</h4>
+<p>Samples are enumerated within ASA directly. ASA is a database driven program with an integrated virtual TallyMeter module, containing over 130 databases. Up to 400 taxa can be enumerated within any one sample, and the entire database currently contains over 33,000 taxa, including algae, zooplankton, macroinvertebrates and bacteria. All calculations are completed within ASA, including concentrations, biovolumes, biomasses and diversity indices. Data files are also generated by ASA and saved in Excel format, while reports are formatted and saved to pdf format utilizing Microsoft Access, including summary graphics on a per sample basis. PhycoTech can then format data files in any format required by the customer, either horizontally or vertically oriented. QA/QC on counting is a recount done on approximately every 10th sample. ASA produces a QA/QC report comparing the original sample and the recount sample (quantitatively and qualitatively), including the distribution check. Samples pass that are within 10% of the QA/QC recount, quantitatively. Percent similarity may vary up to 20% on exceptionally diverse or sparse samples.</p>
+</section>
+<section id="phytoplankton" class="level4" data-number="2.0.5.3">
+<h4 data-number="2.0.5.3" class="anchored" data-anchor-id="phytoplankton"><span class="header-section-number">2.0.5.3</span> Phytoplankton:</h4>
+<p>The magnification used will depend on the size of the dominant taxa and the size and number of particulates. The goal is to count at multiple magnifications in order to correctly enumerate and identify taxa present that may vary by several orders of magnitude in size. If the sample is dominated by cells below 10-20 µm or the cells are fragile and difficult to identify, the majority of counting will be completed at 400x-1000x. Measuring for biovolume includes measuring GALD and additional measurements including length, width and depth of different aspects of the colony or cell. ASA allows up to 28 separate measurements per taxa. Cell and colony shapes are approximated to a geometric figure and or figures and the appropriate calculations made. Currently, ASA has over 44 different shapes defined. From 10 up to a total of 30 natural units (sometimes higher on exceptionally variable taxa) are measured for each taxa depending on variability and number encountered.</p>
+</section>
+<section id="use-one-of-the-following-methods-depending-on-sample-composition" class="level4" data-number="2.0.5.4">
+<h4 data-number="2.0.5.4" class="anchored" data-anchor-id="use-one-of-the-following-methods-depending-on-sample-composition"><span class="header-section-number">2.0.5.4</span> Use ONE of the following methods depending on sample composition:</h4>
+<p>A. DOMINATED BY SOFT ALGAE: If the sample is dominated by soft algae greater than 10-20 µm in GALD, count a minimum of 300 natural units and 15 fields at 200x (when possible, maximum of 100 fields). In addition, count taxa below 10 µm or fragile, difficult to identify taxa at 400x (minimum of 100 natural units and 10 fields). Spread the number of fields counted evenly over the three slides provided for each sample (i.e.&nbsp;30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units.</p>
+<p>B. DOMINATED BY SOFT ALGAE: If the sample is dominated by soft algae less than 10-20 µm in GALD or is dominated by fragile, difficult to identify taxa, count a minimum of 400 natural units and 15 fields at 400x (when possible, maximum of 100 fields). In addition, count taxa above 20-30 µm in GALD at 200x (minimum of 15 fields). Spread the number of fields counted evenly over the three slides provided for each sample (i.e.&nbsp;30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units.</p>
+<p>C. DOMINATED BY DIATOMS: If the sample is dominated by diatoms other than large, easily identified taxa (e.g.&nbsp;Asterionella), count a minimum of 15 fields at 1000x, and a minimum of 400 natural units total (when possible, maximum of 100 fields). In addition, count soft algae according to size distribution (see A or B above) for a minimum of 15 fields at either 200x or 400x. Spread the number of fields counted evenly over the three slides provided for each sample (i.e.&nbsp;30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units.</p>
+<p>NOTE: The goal, regardless of magnification, is to enumerate and identify a minimum of 400 natural units per sample exclusive of misc. microflagellates.</p>
+<p>In the sample, random microscope fields are counted until AT LEAST 400 natural units (colonies, filaments, or single cells) of all organisms (total species) are encountered. Species counts are then made and average cell dimensions taken for biovolume calculations. For the colonies and filaments encountered, individual cells are counted, or estimated by subsampling in each natural unit encountered (e.g., by counting cells per unit of filament length and then multiplying by length of filament).</p>
+</section>
+</section>
+<section id="references" class="level3" data-number="2.0.6">
+<h3 data-number="2.0.6" class="anchored" data-anchor-id="references"><span class="header-section-number">2.0.6</span> References</h3>
+<ul>
+<li>Bergquist, A.M. 1985. Effects of herbivory on phytoplankton community composition, size structure and primary production. Ph. D. Dissertation. University of Notre Dame, Notre Dame, Indiana, USA.</li>
+<li>Crumpton, W.G. 1987. A simple and reliable method for making permanent mounts of phytoplankton for light and fluorescence microscopy. Limnol. Oceanogr. 32: 1154-1159.</li>
+<li>St.&nbsp;Amand, A. 1990. Mechanisms controlling metalimnetic communities and the importance of metalimnetic phytoplankton to whole lake primary productivity. Ph.D.&nbsp;Dissertation. University of Notre Dame, Notre Dame, Indiana, USA.</li>
+<li>Olrik, K., et. al.&nbsp;1998. Methods for Quantitative Assessment of Phytoplankton in Freshwaters, part I. Naturvårdsverket, Stockholm.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./biologicalProtocols.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Biological Protocols</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./zooplankton.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Zooplankton</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

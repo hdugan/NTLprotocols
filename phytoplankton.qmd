@@ -1,0 +1,160 @@
+# Phytoplankton {#sec-zooplankton}
+
+Revised: Unknown
+
+### Pooling:
+
+Label 250ml amber plastic bottles with preprinted labels. Add sample date to labels and cover with clear contact paper.  
+
+Fill out the pooling information form using the hypsometric tables to calculate % Lake Volume represented by each sample that has been collected. The last depth range always goes to bottom of lake. Check that '% lake volume' column totals 100. We want to create a 250 ml pooled sample, so the % lake volume numbers are multiplied by 2.5 to obtain the subsample volumes needed. 
+ 
+Invert sample bottle several times to mix. Use a graduated cylinder to measure out the required volume from each sample, and put it in the Pooled Sample jar. Rinse the graduated cylinder with RO water before pooling another lake. 
+ 
+Store pooled samples until the end of the year.  Discard the remainder of the pre-pooled samples. 
+
+Send pooled samples to Phycotech the following spring, once danger of freezing during UPS transport is past.  At Phycotech they are made into permanent slide mounts.  We archive the slides in the UW Zoology museum.  We do not archive any wet phytoplankton samples.
+
+### Slide mounting and counting
+
+PhycoTech is the only commercial lab in North America to utilize a unique proprietary permanent mounting technique for archiving and preparing samples for enumeration. These mounts allow you to get further data at a later date, as well as maintain a permanent archive of the sample that is easily stored, maintains fluorescence, and does not degrade with time (100+ years). Permanent algal mounts allow archiving of diatoms AND soft algae. All periphyton samples to species include both HPMA mounts for the whole sample and Naphrax, acid cleaned mounts, for diatom identification to species level. Zooplankton samples are also permanently mounted using a slightly different process. Our algal taxonomist, Dr. Ann St. Amand, has over 20 years of experience and has processed over 13,000 periphyton, phytoplankton, bacteria and zooplankton samples from both freshwater and marine systems. Dr. St. Amand is the only person who enumerates algal and zooplankton samples at PhycoTech, ensuring data integrity and consistency. Our In-house key and publication library numbers in the thousands, including the most current references. We have processed several state wide surveys in the Mid-West, West and Florida for phytoplankton and periphyton, each comprised of several hundreds of samples. PhycoTech also consults with Federal and State Agencies, including the Corps of Engineers, on experimental design and QA/QC issues. We process samples for general water quality, as well as the determination of exotic, toxic or taste and odor producing blue-green and chrysophyte algae. PhycoTech has extensive experience enumerating Prymesium parvum, a difficult to identify, toxic haptophyte from the Southwestern United States.
+ 
+There are two state of the art microscopes used to process algal and zooplankton samples: an Olympus BX60, research-grade compound microscope equipped with Nomarski optics (40x, 100x, 200x, 400x, and 1000x), Phase Optics (400x, 1000x), a 1.25-2X multiplier, epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Microfire digital camera attached, and an Olympus BHT, research-grade compound microscope equipped with Nomarski optics (100x, 200x, 400x, and 1000x), Phase Optics (400x), epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Ricoh Camera Back attached using traditional slide and print film. For larger material PhycoTech also has a dissecting microscope. We have access to Notre Dame’s SEM facility as well. Our computer network is a newly installed Novel Network connected to 6 new 2.4+ Gig workstations, with special adaptations for graphics and extra memory for efficiently handling our new data management system, ASA. All count related data is backed up daily to different media, with on-site and off-site copies weekly.
+ 
+PhycoTech is now utilizing its proprietary data management software, ASA. This unique, powerful program not only tracks samples from receipt to data delivery within the same software program (every processing step is documented with initials and date, from Login to Analysis), but also provides significantly more information for each sample. With ASA, we are able to provide not only biovolume estimates, but volume and surface area estimates as well. Our biovolume, volume and area formulas are the most complete set available commercially, drawn from a variety of sources including current primary literature (See our Technical Approach), custom calculations designed in-house for complicated morphologies (e.g. Ceratium) and independently derived calculations from an Outside Engineering Firm that specializes in volumetric studies (e.g. area of a prolate, oblate ellipsoid).   We also now provide data summaries on phyla, division, class down to taxa level automatically, depending on the analysis requested. In addition, our new program has the capability to calculate over 72 different diversity indices and summary statistics, including Shannon, Maragalef, Alpha and Berger_Parker Diversity measures, Species Richness and Evenness, Pollution Tolerance for diatoms, Environmental Tolerance for algae, Siltation Index for diatoms, Pollution Tolerance for diatoms, Palmer Index, ACC:CMN for diatoms, in addition to others. All taxonomic information from organism down to coloniality and structure is provided in the data set. All indices are calculated on an abundance (both Natural units/mL and Cells/mL) and total biovolume, biomass, volume and area basis, if biovolume/biomass is measured. QA/QC reports are generated from within the program, comparing dominant taxa, reporting distribution checks and doing similarity calculations between the original sample and QA/QC sample. All slides are labeled with a unique Tracking ID code that appears on every report, data file and database generated within the laboratory. 
+ 
+Reports are provided in pdf format with summary graphics by group for each sample. Data files are provided in Excel format or other spreadsheet or database formats requested by the customer. 
+
+### Phytoplankton Methods (HPMA)
+
+The HPMA method for producing algal sample slides provides an optically clear background while permanently infiltrating and preserving the sample for archival purposes (See references). Mounting distortion is minimal and the method provides the advantage of being able to go 100x to 1000x on the same specimen. Wet sample is always maintained in case clarification of identification is necessary. We strongly encourage our customers to use glutaraldehyde (final concentration of 0.25-0.50 %) for preservation of algal samples. It offers minimal distortion and allows the use of epifluorescence on algal samples while counting, which can dramatically improve the final results.
+
+#### General protocol for making permanent algal mounts using HPMA equipment
+ 
+Bunsen burner 
+Beaker tongs 
+Ice bath 
+Pyrex beakers (150 ML) 
+2 Dropper bottles 
+Mixed ester nitrocellulose filters (0.45 µm, 25 mm, plain) 
+Glass slides (25 mm x 75 mm) 
+Avery Laser Labels: #2181 
+Glass coverslips (25 mm x 25 mm, #1 or #1.5) 
+Full view series support/drying racks (102 pin) 
+Graduate cylinders 
+Dumont forceps 
+Glass filter towers (25 mL) 
+Rubber stoppers (#2, #10) 
+Filtration Manifold (6 station) 
+Vacuum pump (plus appropriate plumbing, 25-50 mm Hg) 
+Drying oven (60"C, not forced air) 
+Hood
+ 
+REAGENTS:
+HPMA (2-hydroxypropyl methacrylate) 
+Catalyst (azo-bis-iso-butyronitrile) 
+Iodine 
+Glutaraldehyde (25%, general grade) 
+Distilled water
+ 
+CAUTION: Store HPMA and catalyst in refrigerator. Keep glutaraldehyde under hood.
+
+#### Method
+ 
+SAMPLE: 
+
+1. Add enough glutaraldehyde to bring the final concentration to approximately 0.25% to 0.5% (for periphyton samples or "bloom tows", increase the final concentration to approximately 0.5%-1%). Keep the sample dark and refrigerate if possible.
+2. Remove the sample from the refrigerator and let it warm to room temperature before mounting.
+ 
+RESIN: 
+
+1. Prepare ice bath in plastic tub.
+2. Measure 25 mL of HPMA and 0.025 g of catalyst into a 150 mL beaker.
+3. Deal with HPMA under hood and use gloves for both HPMA and catalyst.
+4. Under hood, light Bunsen burner and set to high flame.
+ 
+Heat HPMA (with catalyst added) until you see density currents starting to form. Cool mixture by swirling in ice bath, and return to flame. DO NOT LET MIXTURE BOIL!!!!!. Keep heating and cooling, alternately, until the mixture is approximately the thickness of Kayro syrup. Make sure the mixture is cool when it reaches this point or it will polymerize further. Transfer to a clean, glass jar for storage until usage. The entire procedure takes 2 to 1 hour, depending on how brave you are.
+
+CAUTION!! THIS REACTION IS EXOTHERMIC ONCE IT REACHES A CERTAIN TEMPERATURE AND WILL TAKE PLACE ALMOST EXPLOSIVELY IF YOU LET IT GET TOO HOT. THE FUMES ARE TOXIC. KEEP WATER OUT OF THE PRE-POLYMER.
+NOTE: Wash beakers in ethanol by letting them soak for 24 to 48 hours twice; wash with soap and rinse with distilled water. Be careful to keep dust out of the beakers when making the resin.
+Fill 2 amber dropper bottles with resin. Add crystalline iodine to one of the bottles until the resin is nearly opaque. The iodine-resin will be slightly thicker than normal resin. (Resin is light sensitive -- be sure to cover the extra resin with foil.)
+
+#### Slides
+
+MAKE THREE SLIDES FOR EACH SAMPLE -- SHAKE SAMPLE WELL (100 TIMES-phyt. or 200 TIMES-peri.). Use Millipore 6-place stainless steel manifold and Millipore Filtration Towers.
+1.	Put membrane filters onto filtration bases and wet with distilled water. Drain excess water through filter. If filter has any opaque areas (very white when wet), replace with another filter.
+2.	Assemble filter towers.
+3.	Measure out phytoplankton sample using micropipetor or macropipetor (use graduate cylinder for very dilute samples, e.g. 30+ mL). For periphyton samples, remove sample with micropipetor (usually from 0.05-0.5 mL) and dilute to 10 mL in a graduated cylinder with distilled water. Agitate to mix. Choose sample volume so that each field at 200x contains approximately 20-30 cells.
+4.	Add sample to the tower and open valve. For periphyton samples or large phytoplankton samples using cylinders, rinse graduate cylinder into tower. Filter sample until water just clears the filter surface. Close valve and remove filtration tower just after the water disappears from the inner edge of the tower.
+5.	Place filter, FACE down, on a cover slip (# 1.5). Be careful to avoid bubbles under the filter.
+6.	Samples: 
+1.	Samples preserved in glutaraldehyde: 
+3 slides: Add 1-2 drops of clear resin to the back of the filter, and rotate the cover slip until the resin covers the back of the filter.
+2.	Samples preserved in lugols: 
+3 slides: Add 1-2 drops of the iodine-resin to the back of the filter, and rotate the cover slip until the resin covers the back of the filter.
+ 
+7.	Place cover slips on the drying rack and place in drying oven for 12 to 24 hours.
+8.	Remove cover slips from oven. Add 1 drop of resin to the filter side of the cover slip and attach to a labeled slide. Add as little resin as possible to cover the filter surface!!!! The less resin, the faster it will polymerize and the better the prep.
+9.	Put slides in the oven and let polymerize for approximately 24 hours. If the resin is not completely polymerized, replace and heat for as long as 2-3 days. Make sure that the slides are completely polymerized before you store them or they will run and/or evaporate!!!! And believe me, its a mess!!!!
+10.	Label slides with ASA generated labels. All slides are labeled with the Tracking ID, which appears on all reports, data files and in all databases associated with that sample bottle and associated data. 
+
+#### Acid cleaning and making naphrax slides for diatoms
+
+Phytoplankton/Periphyton:
+ 
+If species identifications for diatoms are required or unknown diatom taxa are present, acid cleaned mounts in Naphrax are prepared according to the following procedure:
+ 
+1. Take 5-20 mL of sample and transfer to a clean, 250 mL Pyrex beaker in the hood. Add room-temperature nitric acid to a total volume of 40-60 mL.
+2. Cover with a watchglass.
+3. After at least 24 hours has elapsed, carefully siphon off acid using glass siphon. Dilute acid and discard down drain with lots of extra water (Let water run for a minimum of 30 minutes after discarding acid).
+4. A. Transfer remaining sample to a centrifuge tube and bring volume up to 14 mL with distilled water. Cap tube, mix well, and centrifuge at 3000 RPM for 5 minutes. Remove tube and carefully remove supernatant to the 2 mL volume marker with a micropipetor. Bring volume back up to 14 mL with distilled water, mix well, and repeat process. Complete a minimum of 6 centrifuge cycles. Check pH. If pH is lower than 7, repeat centrifuging process until the pH reaches 7.
+ *  On the final cycle, remove supernatant to the 1 mL volume marker and bring volume back to 5 mL. Mix well to suspend pellet and decant into the storage bottle. Rinse the centrifuge tube 2 more times with 5 mL of distilled water and decant into the storage bottle. The total volume of the cleaned sample should be 15 mL. If the sample is very sparse, lower final volume.
+5. Using a pasture pipette, transfer enough sample to a cover slip (#1, 22mm square) to cover the entire area and place in a vibration-free area until dry.
+6. Add 1 small drop of Naphrax to the cover slip and invert onto a slide. Compress the coverslip with a clean object and place in an oven (60oC) for 1-3 hours, or finish on a hot plate.
+7. Ring cover slip with fingernail polish and store.
+8. Identify taxa at 1000x under oil immersion. Reference taxa are identified using a diamond scribing objective and permanent ink labels.
+
+### Quality Assurance Plan 
+
+#### Taxonomic Accuracy
+ 
+Dr. Ann St. Amand, a senior level phycologist and taxonomic expert, will perform all phytoplankton, periphyton, and zooplankton identifications, enumerations, and biovolume/biomass measurements. Dr. St. Amand has published extensively in the area of algal ecology and has processed over thirteen-thousand algal and bacterial samples, and is qualified to analyze zooplankton and macroinvertebrates. Outside taxonomists will be utilized for taxonomic verifications when necessary.
+ 
+All samples are initially test mounted for counting density before final mounting. Any major questionable IDs are noted in the database during counting, and indicated on the report as uncertain for taxonomic clarity. If enough sample is present, samples are sent out to other taxonomists for taxonomic confirmation. Distribution is checked on approximately every tenth sample, during the counting process. All biovolume calculations have been verified by comparing with current literature, and by comparing calculations using outside mathematical consultations. 
+ 
+#### Sample Custody 
+ 
+The chain-of-custody requirements for all laboratory operations for each sample (broadly interpreted to include procedures for the preparation of reagents or supplies which become an integral part of the sample, record keeping associated with sample acquisition, documentation of sample preservation, sample labeling, sample tracking to establish chain-of-custody, and shipping and packing) and laboratory analysis (i.e., laboratory coding, storage, check-out, and documentation of sample movement) will be fully documented in our data management software. Each sample received will be assigned an individual tracking number. The sample bottle, chain-of-custody, and sample log sheet which accompanies each sample sent are then used in conjunction with one another, to enter the samples individual tracking number and all available sample information, into our sample database, ASA. The database allows for quick and accurate tracking of each sample received by PhycoTech. Dated and initialed entries by appropriate personnel on all worksheets and in the log database are required for data validation. All information entered into ASA is fully QA/QC’d for content and accuracy. Sample receipt is confirmed with each customer. All slides are labeled with the Tracking ID, which appears on all reports, data files and in all databases associated with that sample bottle and associated data. 
+ 
+### Counting
+#### Microscope:
+There are two microscopes used to process algal samples: an Olympus BX60, research-grade compound microscope equipped with Nomarski optics (40x, 100x, 200x, 400x, and 1000x), Phase Optics (400x, 1000x), a 1.25-2X multiplier, epifluorescence (blue, green, and UV excitation) and a trinocular head for photography, with a Microfire digital camera attached. For larger material PhycoTech also has a dissecting microscope. The BX60 is the primary microscope used for algal and zooplankton identification. There is also an Olympus BHT, research-grade compound microscope equipped with Nomarski optics (100x, 200x, 400x, and 1000x), Phase Optics (400x), epifluorescence (blue, green and UV Excitation), and a trinocular head for photography, with a Ricoh Camera Back attached using traditional slide and print film.
+ 
+#### Data Entry:
+Samples are enumerated within ASA directly. ASA is a database driven program with an integrated virtual TallyMeter module, containing over 130 databases. Up to 400 taxa can be enumerated within any one sample, and the entire database currently contains over 33,000 taxa, including algae, zooplankton, macroinvertebrates and bacteria. All calculations are completed within ASA, including concentrations, biovolumes, biomasses and diversity indices. Data files are also generated by ASA and saved in Excel format, while reports are formatted and saved to pdf format utilizing Microsoft Access, including summary graphics on a per sample basis.   PhycoTech can then format data files in any format required by the customer, either horizontally or vertically oriented. QA/QC on counting is a recount done on approximately every 10th sample. ASA produces a QA/QC report comparing the original sample and the recount sample (quantitatively and qualitatively), including the distribution check. Samples pass that are within 10% of the QA/QC recount, quantitatively. Percent similarity may vary up to 20% on exceptionally diverse or sparse samples.
+ 
+#### Phytoplankton:
+ 
+The magnification used will depend on the size of the dominant taxa and the size and number of particulates. The goal is to count at multiple magnifications in order to correctly enumerate and identify taxa present that may vary by several orders of magnitude in size. If the sample is dominated by cells below 10-20 µm or the cells are fragile and difficult to identify, the majority of counting will be completed at 400x-1000x. Measuring for biovolume includes measuring GALD and additional measurements including length, width and depth of different aspects of the colony or cell. ASA allows up to 28 separate measurements per taxa. Cell and colony shapes are approximated to a geometric figure and or figures and the appropriate calculations made. Currently, ASA has over 44 different shapes defined. From 10 up to a total of 30 natural units (sometimes higher on exceptionally variable taxa) are measured for each taxa depending on variability and number encountered.
+ 
+#### Use ONE of the following methods depending on sample composition:
+
+A. DOMINATED BY SOFT ALGAE: If the sample is dominated by soft algae greater than 10-20 µm in GALD, count a minimum of 300 natural units and 15 fields at 200x (when possible, maximum of 100 fields). In addition, count taxa below 10 µm or fragile, difficult to identify taxa at 400x (minimum of 100 natural units and 10 fields). Spread the number of fields counted evenly over the three slides provided for each sample (i.e. 30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units.
+ 
+B. DOMINATED BY SOFT ALGAE: If the sample is dominated by soft algae less than 10-20 µm in GALD or is dominated by fragile, difficult to identify taxa, count a minimum of 400 natural units and 15 fields at 400x (when possible, maximum of 100 fields). In addition, count taxa above 20-30 µm in GALD at 200x (minimum of 15 fields). Spread the number of fields counted evenly over the three slides provided for each sample (i.e. 30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units.
+ 
+C. DOMINATED BY DIATOMS: If the sample is dominated by diatoms other than large, easily identified taxa (e.g. Asterionella), count a minimum of 15 fields at 1000x, and a minimum of 400 natural units total (when possible, maximum of 100 fields). In addition, count soft algae according to size distribution (see A or B above) for a minimum of 15 fields at either 200x or 400x. Spread the number of fields counted evenly over the three slides provided for each sample (i.e. 30 total fields, 10 fields per slide). Counting is completed when the standard error of the mean of the total number of natural units per field is less than 10%. For large taxa (200+ µm): scan at least one whole slide at 100x. This tiered counting method should yield a minimum of 400 natural units per sample (well over 400 cells per sample). Extremely sparse samples or samples with high particulates will yield less than 400 natural units. 
+ 
+NOTE: The goal, regardless of magnification, is to enumerate and identify a minimum of 400 natural units per sample exclusive of misc. microflagellates.
+ 
+In the sample, random microscope fields are counted until AT LEAST 400 natural units (colonies, filaments, or single cells) of all organisms (total species) are encountered. Species counts are then made and average cell dimensions taken for biovolume calculations. For the colonies and filaments encountered, individual cells are counted, or estimated by subsampling in each natural unit encountered (e.g., by counting cells per unit of filament length and then multiplying by length of filament).
+ 
+ 
+### References
+ 
+- Bergquist, A.M. 1985. Effects of herbivory on phytoplankton community composition, size structure and primary production. Ph. D. Dissertation. University of Notre Dame, Notre Dame, Indiana, USA.
+- Crumpton, W.G. 1987. A simple and reliable method for making permanent mounts of phytoplankton for light and fluorescence microscopy. Limnol. Oceanogr. 32: 1154-1159.
+- St. Amand, A. 1990. Mechanisms controlling metalimnetic communities and the importance of metalimnetic phytoplankton to whole lake primary productivity. Ph.D. Dissertation. University of Notre Dame, Notre Dame, Indiana, USA.
+- Olrik, K., et. al. 1998. Methods for Quantitative Assessment of Phytoplankton in Freshwaters, part I. Naturvårdsverket, Stockholm.
+
+ 
+
