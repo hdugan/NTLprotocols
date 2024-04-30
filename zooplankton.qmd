@@ -2,7 +2,9 @@
 
 Revised: April 2024, Paul Schramm
 
-### Purpose:
+## Location: Northern Lakes
+
+## Purpose:
 
 We collect zooplankton samples at the deepest part of the lake using two different gear types. We take one vertical tow with a Wisconsin Net (80um mesh), and a series of Schindler Patalas (53um mesh) samples spanning the water column. All samples are preserved in cold 95% EtOH.
 
@@ -10,7 +12,8 @@ After collection we combine subsamples of the individual Schindler Patalas trap 
 
 We count zooplankton in one or two subsamples, each representing 1.8L of lake water, of the hypsometrically pooled samples to calculate zooplankton abundance. We count one sample date per month from the open water season, and the February ice cover sample. We identify individuals to genus or species, take length measurements, and count eggs and embryos.
 
-##### Target Depths:
+## Sampling
+### Target Depths:
 
 From the field, there will be 1 Wisconsin net sample per lake, and multiple Schindler Trap samples from the following depths:
 
@@ -24,27 +27,27 @@ With the exception of CB, the goal is to create a hypsometrically pooled sample 
 
 Take samples starting at the surface and working down. Lower the trap slowly so that it remains vertical in the water. Pause at the target depth long enough to allow both trap doors to close completely, and check when it reaches the surface that both did close. Drain the trap through the net and cup, swirling the cup until the liquid level is below the mesh windows. Remove the cup from the net and pull out the center pin to drain the sample into jar, then rinse cup and pin several times with 95% EtOH into the sample jar.
 
-### Northern Highlands Lake District:
-
-##### Jar Preparation
+### Jar Preparation
 
 Label 4-oz jars with computer printed labels for Wisconsin net and hypsometrically pooled samples. Add the date to the label using a soft pencil (#1 pencil). Cover the labels with a strip of clear contact paper, making sure the contact paper completely covers the label and encircles the jar. Weigh the empty jars, including lids, on the Mettler XS603S balance. Record these weights on the ‘Volume by Weight’ data sheet.
 
 Add 80 ml chilled 95% EtOH to the Wisconsin net and field collection jars (120mL glass screw top jars); leave the HP jar empty.  Keep the zooplankton jars cold until sample collection.
 
 
-##### Sample Collection: Schindler-Patalas Trap
+### Sample Collection: Schindler-Patalas Trap
 
 Use the 2-meter high, 45L Schindler-Patalas trap with 53um mesh net and cup. The volume of the trap used should be indicated on the Volume by Weight form.
 
 Collect samples from the target depths at the deep sampling station in each lake. Sample depths are measured from the middle of the trap.
 
-#### Sample Collection: Wisconsin Net
+### Sample Collection: Wisconsin Net
 
 Lower the net to the bottom sample depth. Pull it up slowly, at a rate of about 3 seconds per meter. A slow haul prevents the net from pushing water and plankton away from the mouth of the net. Drain the cup until the water level is below the lower window, then pour contents into the sample jar. Rinse the cup with 95% EtOH several times, adding the rinse to the sample jar.
 
 
-##### Hypsometric Pooling Rationale and Definition
+## Post-processing 
+
+### Hypsometric Pooling Rationale and Definition
 
 In March 1986 the LTER Zooplankton Group decided to pool the discrete depth Schindler Patalas trap samples into one pooled sample per lake-date for counting. Counting pooled samples rather than all of the depth samples reduces the time to produce zooplankton count data. The group hoped to count pooled samples from the entire backlog of uncounted samples and eventually to count samples shortly after collection.
 
@@ -56,7 +59,7 @@ Pooling is the creation of a new sample from subsamples of the Schindler trap sa
 
 In sum, the advantages to this method of pooling are quicker turnover time and representation of the entire lake in a volume weighted fashion. Disadvantages of this method include the time required to pool subsamples, errors introduced during pooling, and the loss of more specific depth information.
 
-##### Pooling Procedure
+### Pooling Procedure
 
 Weigh the Wisconsin Net sample and record the weight on the Volume by Weight form. Mark the liquid level on the jar with a 'Sharpee' brand permanent marker, be sure the mark is not above label or it will bleed onto label. Write the sample date on the cap.
 
@@ -68,13 +71,13 @@ Mix the first sample gently and thoroughly by tilting the jar from side to side.
 
 Place the HP sample in the hood to evaporate the excess volume of rinse EtOH. The final weight of the HP sample should be 105g. Mark the liquid level on the jar with a Sharpee brand permanent marker, and write the sample date on the cap and with the letters "HP". If the samples are from the August quarterly, pour the remainder of each Schindler sample into a labeled jar for archival. For all other sample dates, discard what is left of the Schindler samples. Rinse the field sample jars with RO water and allow to air dry.
 
-#### Sample Storage and Record Keeping
+### Sample Storage and Record Keeping
 
 The following samples are archived from each sampling trip: Hyposmetrically pooled sample and Wisconsin Net sample in 120 ml glass jars. Depth samples are archived from the August quarterly sampling in 120 ml glass jars. Store samples in cardboard records boxes (15"x 12"x 4.5"), storing samples from each lake in a separate box. Approximately one year of samples will fit in one box. Fill out the forms for each sample and sample box, as noted below. Box Inventory Form: A record of box contents. It remains in the sample storage box.
 
 Volume by Weight Form: A record of samples collected for any one lake-date and their volumes, storage box number, and history of sample usage. Filed in 3-ring binders. When full, these binders are sent to the LTER data manager. When boxes become full, check the contents against the Inventory Form and Volume by Weight forms. LTER samples and related paperwork are eventually transferred to the Zoology Museum at UW-Madison via the Museum Committee.
 
-#### Zooplankton Counting
+### Zooplankton Counting
 
 Zooplankton counting is performed on hypsometrically pooled samples.
 
@@ -86,7 +89,7 @@ Use the automated Z3 counting program to count and measure. Measure 10 individua
 
 When finished, mark the new liquid level on the jar with a permanent marker. Weigh jar and record weight in a new column of the V by Wt sheet. Return sample jar to storage box.
 
-#### References
+## References
 
 Refer to the LTER zooplankton notes for distinctive characteristics of zooplankton found in the LTER lakes. Useful references are listed below:
 
@@ -95,7 +98,7 @@ Refer to the LTER zooplankton notes for distinctive characteristics of zooplankt
 -   Hudson, Patrick L., Janet W. Reid, Lynn T. Lesko, James H. Selgeby. 1998. Cyclopoid and Harpactacoid Copepods of the Laurentian Great Lakes. Ohio Biological Survey Bulletin NS 12(2):1-50.
 
 
-#### Protocol log:
+## Protocol log:
 
 -   1981 -- May1984 -- a 0.5m high, 31L Schindler Patalas trap with 80um mesh net was used. Two Wisconsin Net tows were collected. Preservative was 12% buffered formalin.
 -   June1984 -- changed to 53um mesh net on Schindler trap.
@@ -103,6 +106,8 @@ Refer to the LTER zooplankton notes for distinctive characteristics of zooplankt
 -   2001 -- changed zooplankton preservative from 12% buffered formalin to 95% EtOH.
 -   The number of sample dates per year counted varies with lake and year, from 5 dates/year to 17 dates/year.
 -   1981-1983 -- pooled samples are of several types: Total Pooled (TP) were created using equal volume subsamples of the Schindler samples. Epi, Meta, Hypo pooled used equal volume subsamples from the Schindler samples collected from each of the thermal strata. Strata Pooled used equal volume subsamples from the Epi, Meta, Hypo pooled samples to create an entire lake sample. Hypsometrically Pooled (HP) is our standard, which uses subsample volumes weighted to represent the hypsometry of the lake.
+
+The table below shows the types of count data by lake and year that are present in the LTER database of zooplankton samples counted.
 
 +-------------+--------+---------+-----------------+--------+--------+--------+
 |             | HP     | HP      | Discrete Depths | TP     | SP     | E,M,H  |
