@@ -1,0 +1,57 @@
+# South Zooplankton {#sec-south-zooplankton}
+
+Revised: Unknown
+
+### Purpose:
+
+### Yahara Lakes District:
+
+#### Preparing the Sample
+
+-   Working under a hood, transfer the sample from the sample bottle into a 35 or 80 um mesh cup using a squirt bottle containing water. Rinse the zooplankton thoroughly with the water to get rid of any residue preservative (formalin or ethanol).
+-   Transfer the sample from the mesh cup into a beaker with marked volumes (measure and mark the beaker volume in 50 mL increments from 50-300 mL using a graduated cylinder). Using a squirt bottle containing water, make sure that all visible zooplankton are transferred from the mesh cup into the beaker.
+-   Fill the beaker with water to the 50 mL mark. If the sample contains a high density of zooplankton, particularly daphnia, it is desirable to dilute the sample further by adding more water to the beaker. A benchmark that has been used in the past is to dilute the sample so that there are at least a total of 50 of the dominant adult daphnia species in the 4 reps. Record the Total Volume of Sample on the data sheet.
+-   Using the 1 mL Hensen Stempel Pipette, stir the sample in the beaker in a figure-8 pattern. After becoming acquainted with how to use the pipette, take a 1 mL subsample and place it into a counting dish. A square counting dish with 36 square divisions has worked well for previously counted samples. Using a squirt bottle containing water, rinse the zooplankton from the pipette into the counting dish.
+-   Using a pointer, add a small drop of soap to the counting dish to break the surface tension and allow the sample to spread out in the dish. Add enough water so that the sample forms a continuous thin layer in the dish.
+
+#### Counting the Sample
+
+-   Using the LTER Leica MZ8 dissecting scope, count the total number in the entire subsample of all individual cladoceran species as well as the largest cyclopoid species, Aglaodiaptomus clavipes. Use a benchtop counter to keep track of the number of individual species. It is easiest to keep the microscope at one power (perhaps 250x) and to scan the counting dish in both directions being careful to count the entire dish but not to overlap the passes so much that the same individual is counted twice.
+-   For the other species, a portion of the dish can be counted. Count individual squares in the dish (make sure that the dissecting scope is level and try to spread out the zooplankton evenly in the dish if they seem to be concentrated in one area). Record as a ratio the number of squares counted and the total squares in the dish (39.6) in the % Tray Counted column of the data sheet (see past data sheets). As a general rule, unless there are very large numbers of a particular species of zooplankton, at least one third of the dish should be counted for each species of zooplankton.
+-   To measure individual species, set (and record on the data sheet in the Objective Magnification space) the scope to the 2.5 magnification setting. For each sample date (4 reps per sample date), measure 50 of each species of adult daphnia, 25 of each species of neonate daphnia as well as the unidentified neonate daphnia, and 15 of all other species (and eggs) found. Note that the shell spine is not measured on the daphnia and the setae are not measured on the copepods (see Balcer et. al). When measuring species, it is important to measure all individuals encountered until the specified number is reached so as not to bias the length measurements by inadvertently picking larger or smaller individuals. If the number of individuals counted of a particular species is less than the required number to measure, just measure those individuals counted. Record the lengths in scope units with 1.0 being 10 of the smallest units on the graticule (measuring device in the eyepiece).\
+-   For those adult daphnia that are measured, note on the data sheet (in the manner specified on the data sheet): the number of males encountered, the daphnia which are exploded, and the number of eggs in the carapace for those daphnia which have eggs.
+-   Prepare another 1 mL subsample in the manner described above, and count the same percentage of the counting dish for each species of zooplankton as was done in the previous subsample(s) of the same sample. Count a total of 4, 1 mL subsamples per sample.
+-   Leptodora are counted from the entire sample. Dump the entire sample back into the mesh cup and rinse it (using a squirt bottle) into a counting dish. Count and record the total number of Leptodora in the sample. Using the 1x magnification (be sure to record 1x on the data sheet as the magnification at which Leptodora were measured), measure all Leptodora encountered (up to 50).
+
+#### Storing the Sample
+
+-   After the sample has been counted, transfer it from the beaker and counting dish(s) back into the sample jar. Use a squirt bottle containing ethanol to carefully rinse all of the zooplankton back into the sample jar. Fill the sample jar with ethanol. On the sample jar, write 'Counted' , the initials of the person who counted the sample, and the date the sample was counted.
+
+Entering the zooplankton data into an excel spreadsheet
+
+-   An excel spreadsheet including formulas which calculate density and mean length has been set up for the zooplankton data (zoopform1.xls and zoopform2.xls). Following are some explanations of the excel spreadsheet:
+-   Sample Volume (column F): This is the volume that the sample was diluted to in the beaker (Total Volume of Sample on the data sheet).
+-   Objective Magnification (measuring) (column G): This is the number that the zoom dial was turned to when measuring individuals. Note that this will normally be 2.5 except that for Leptodora it is usually 1.\
+-   \% Tray Counted (column N): This is the percentage of the dish that was counted for the particular species of zooplankton. Be sure that the entry is a percentage number and not the ratio written on the data sheet.
+-   \# Per Tow (column O): This is a formula which calculates the total number of a particular species in the entire sample (or in the single tow). This is calculated using the following formula: ((Total Number in 4 Reps (M))/(4 mL))*(Sample Volume (F))*((100/(% tray counted (N). Note that because the entire sample is counted for Leptodora, the \# Per Tow (O) formula is different for Leptodora (= column M). All other formulas in the spreadsheet are identical for all of the individual species.
+-   \# Per m3 (column P): This is a formula which calculates the total number of a particular species in a cubic meter of water. This is calculated using the following formula: (# Per Tow (O))/((Tow Depth (E))*p,*(net hoop radius)2 ) where the net hoop radius for the Southern Lakes LTER net is 0.15 meters.
+-   \# Species Measured (column R): This is a formula which counts the number of length entries made for an individual species.
+-   Average Length (mm) (column S): This is a formula which averages the individual species lengths in scope units and divides by the Objective Magnification (G). Note that this formula has been checked by calibrating the graticule in mm using a stage micrometer. If a different microscope is used or parts of the existing microscope are changed (objective lens (currently 1.0x planochromatic), graticule (currently 12mm:120) or eyepieces (currently 10x)), the graticule should be recalibrated and the formula adjusted accordingly.
+
+#### Proofreading the zooplankton data
+
+Following are some suggestions to avoid data entry errors - Check the zooplankton sample dates with the dates on the field sheets. If there is a discrepancy of a few days, assume that the date on the field sheet is the correct date. - After proofreading an entire lake and years worth of data (i.e. a complete spreadsheet), save the spreadsheet as a test file and sort by species. Check that all of the Objective Magnif. (column G) for Leptodora are 1 (if not check against the data sheet). Also make sure that the \# Per Tow (column O) contains the same formula for all of the Leptodora entries (=column M). Also check the % Tray Counted (column N) and see if there are entries other than 100% for species which are normally counted in the entire tray (daphnia, aglaodiap, etc). It is also a good idea to sort the test file by other columns and look for irregularly high and low readings.
+
+#### Southern Lakes LTER Zooplankton Species
+
+Refer to the zooplankton data sheet for the list of species found in the southern LTER lakes. Note that there were some 1995 Lake Mendota zooplankton samples counted in 1996 for which a different protocol was followed.
+
+-   Certain zooplankton have not been identified to species because of the difficulty in distinguishing them from other similar species. This is the case with Leptodiaptomus siciloides, Leptodiaptomus minutus, and Skistodiaptomus oregonensis. Although it is possible to distinguish these species apart using a dissecting scope, due to time constraints it was decided to group them in the Diaptomus spp. category. Acanthocyclops spp., Chydorus, and Alona are other examples of categorizing to genus but not species.
+-   There was a change in counting protocol after the 1995 through 1999 Lake Mendota samples were counted. Initially, we used a size cut off of approximately 0.9mm (the size at which it becomes difficult with a dissecting scope to see the pectin of and thus speciate Daphnia pulicaria) below which we put all daphnia in a Daphnia spp. (neonate) category. For more recently counted samples, we have kept the same size cut-off at 0.9 mm to distinguish adult daphnia from neonates, but we have expanded the neonate category into Neonate Daphnia pulicaria, Neonate Daphnia mendotae, and Unid. Neonate Daphnia spp.
+
+Refer to the LTER zooplankton notes for distinctive characteristics of zooplankton found in the LTER lakes. Useful references are listed below:
+
+-   Balcer, Mary D., Nancy L. Korda, and Stanley I. Dodson. 1984. Zooplankton of the Great Lakes, A Guide to the Identification and Ecology of the Common Crustacean Species. The University of Wisconsin Press.
+-   Dodson, Stanley I., Branchiopods and Calanoid Copepods of Wisconsin, 8/5/99 draft (or in press).
+-   Hudson, Patrick L., Janet W. Reid, Lynn T. Lesko, James H. Selgeby. 1998. Cyclopoid and Harpactacoid Copepods of the Laurentian Great Lakes. Ohio Biological Survey Bulletin NS 12(2):1-50.
+

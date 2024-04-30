@@ -1,154 +1,174 @@
 # Zooplankton {#sec-zooplankton}
 
-Revised: Unknown
+Revised: April 2024, Paul Schramm
 
 ### Purpose:
+
 We collect zooplankton samples at the deepest part of the lake using two different gear types. We take one vertical tow with a Wisconsin Net (80um mesh), and a series of Schindler Patalas (53um mesh) samples spanning the water column. All samples are preserved in cold 95% EtOH.
 
 After collection we combine subsamples of the individual Schindler Patalas trap samples to create one hypsometrically pooled sample for each lake/date. The individual depth samples are discarded after pooling except from one August sampling date per year. The Hypsometrically Pooled sample and the Wisconsin Net sample are archived in the UW Zoology museum.
 
 We count zooplankton in one or two subsamples, each representing 1.8L of lake water, of the hypsometrically pooled samples to calculate zooplankton abundance. We count one sample date per month from the open water season, and the February ice cover sample. We identify individuals to genus or species, take length measurements, and count eggs and embryos.
 
-Protocol log:
+##### Target Depths:
 
-- 1981 -- May1984 -- a 0.5m high, 31L Schindler Patalas trap with 80um mesh net was used. Two Wisconsin Net tows were collected. Preservative was 12% buffered formalin. 
-- June1984 -- changed to 53um mesh net on Schindler trap. 
-- July 1986 -- began using the 2m high, 45L Schindler Patalas trap. Changed WI Net collection to take only one tow. 
-- 2001 -- changed zooplankton preservative from 12% buffered formalin to 95% EtOH. 
-- The number of sample dates per year counted varies with lake and year, from 5 dates/year to 17 dates/year. 
-- 1981-1983 -- pooled samples are of several types: Total Pooled (TP) were created using equal volume subsamples of the Schindler samples. Epi, Meta, Hypo pooled used equal volume subsamples from the Schindler samples collected from each of the thermal strata. Strata Pooled used equal volume subsamples from the Epi, Meta, Hypo pooled samples to create an entire lake sample. Hypsometrically Pooled (HP) is our standard, which uses subsample volumes weighted to represent the hypsometry of the lake.
+From the field, there will be 1 Wisconsin net sample per lake, and multiple Schindler Trap samples from the following depths:
+
+-   TR: 1, 3, 5, 7, 9, 15, 20, 27, 31 meters
+-   CR/BM: 1, 3, 5, 7, 9, 11, 13, 15, 18 meters
+-   SP: 1, 3, 5, 7, 9, 11, 13, 15, 17 meters
+-   AL/TB: 1, 3, 6 meters
+-   CB: 1 meter
+
+With the exception of CB, the goal is to create a hypsometrically pooled sample for each lake.
+
+Take samples starting at the surface and working down. Lower the trap slowly so that it remains vertical in the water. Pause at the target depth long enough to allow both trap doors to close completely, and check when it reaches the surface that both did close. Drain the trap through the net and cup, swirling the cup until the liquid level is below the mesh windows. Remove the cup from the net and pull out the center pin to drain the sample into jar, then rinse cup and pin several times with 95% EtOH into the sample jar.
 
 ### Northern Highlands Lake District:
 
 ##### Jar Preparation
-Label 4-ounce jars with computer-printed labels for the Hypsometrically Pooled and Wisconsin Net samples. Add the sample date to the label using a soft pencil. Cover the label with a strip of clear contact paper, making sure the contact paper completely covers the label and encircles the jar. Jar labels should contain the following information:
- 
-Lake Name         Station #                              Lake Name         Station #
-Day  Month         YYYY                                 Day  Month         YYYY
-Hypsometrically pooled: surf.-bottom            Wisconsin Net 80um mesh
-2-m, 45 L. Schindler Patalas Trap                  Vertical Tow from        Meters
-53um mesh,   Preserv: 95%EtOH                  Preservative: 95% EtOH        
- 
-Weigh the empty jars, including lids, recording these weights on the 'Volume by Weight' data form. 
-Fill the Schindler field collection and Wisconsin Net jars with 80 ml cold 95% EtOH, making sure that the Schindler collection jars have the correct lids.  Leave the HP jar empty. Keep preservative-filled jars cold until the zooplankton samples are collected.
- 
+
+Label 4-oz jars with computer printed labels for Wisconsin net and hypsometrically pooled samples. Add the date to the label using a soft pencil (#1 pencil). Cover the labels with a strip of clear contact paper, making sure the contact paper completely covers the label and encircles the jar. Weigh the empty jars, including lids, on the Mettler XS603S balance. Record these weights on the ‘Volume by Weight’ data sheet.
+
+Add 80 ml chilled 95% EtOH to the Wisconsin net and field collection jars (120mL glass screw top jars); leave the HP jar empty.  Keep the zooplankton jars cold until sample collection.
+
+
 ##### Sample Collection: Schindler-Patalas Trap
-For LTER lakes use the 2-meter high, 45L Schindler-Patalas trap with 53um mesh net and cup. The volume of the trap used should be indicated on the Volume by Weight form.
- 
+
+Use the 2-meter high, 45L Schindler-Patalas trap with 53um mesh net and cup. The volume of the trap used should be indicated on the Volume by Weight form.
+
 Collect samples from the target depths at the deep sampling station in each lake. Sample depths are measured from the middle of the trap.
 
-##### Target Depths:
-
-- TR: 1, 3, 5, 7, 9, 15, 20, 27, 31 meters
-- CR/BM: 1, 3, 5, 7, 9, 11, 13, 15, 18 meters
-- SP: 1, 3, 5, 7, 9, 11, 13, 15, 17 meters
-- AL/TB: 1, 3, 6 meters
-- CB: 1 meter
- 
-Take samples starting at the surface and working down. Lower the trap slowly so that it remains vertical in the water. Pause at the target depth long enough to allow both trap doors to close completely, and check when it reaches the surface that both did close. Drain the trap through the net and cup, swirling the cup until the liquid level is below the mesh windows. Remove the cup from the net and pull out the center pin to drain the sample into jar, then rinse cup and pin several times with 95% EtOH into the sample jar.
- 
 #### Sample Collection: Wisconsin Net
+
 Lower the net to the bottom sample depth. Pull it up slowly, at a rate of about 3 seconds per meter. A slow haul prevents the net from pushing water and plankton away from the mouth of the net. Drain the cup until the water level is below the lower window, then pour contents into the sample jar. Rinse the cup with 95% EtOH several times, adding the rinse to the sample jar.
- 
-#### Hypsometric Pooling
- 
-##### Rationale and Definition
+
+
+##### Hypsometric Pooling Rationale and Definition
+
 In March 1986 the LTER Zooplankton Group decided to pool the discrete depth Schindler Patalas trap samples into one pooled sample per lake-date for counting. Counting pooled samples rather than all of the depth samples reduces the time to produce zooplankton count data. The group hoped to count pooled samples from the entire backlog of uncounted samples and eventually to count samples shortly after collection.
- 
+
 Samples are pooled considering lake hypsometry and, therefore, represent the entire lake. Previously, unpooled samples (2-9 samples per lake-date) or samples pooled considering only a water column were counted. Hypsometric pooling allows us to consider the zooplankton community as representing the entire lake, as our other limnological methods do, instead of just a column of water.
- 
+
 Lake hypsometry is a three dimensional image of a lake or basin. In a simplified example of hypsometry, a lake is similar to a cone filled with water. If the cone were divided into three layers by two equidistant horizontal planes, the volumes in those layers would be very different from each other. The uppermost layer would contain the most water. Similarly, the upper depths typically contain most of the volume of a lake.
- 
-Pooling is the creation of a new sample from subsamples of the Schindler trap samples collected from one lake-date. The volume of each subsample used to make the pooled sample reflects the depth range the sample represents and the volume of water that range represents relative to the entire lake volume. Samples pooled in this manner are called HP samples, for “hypsometrically pooled”, and are referred to as “volume weighted” because the volume of lake water each depth sample represents determines the subsample size.
- 
+
+Pooling is the creation of a new sample from subsamples of the Schindler trap samples collected from one lake-date. The volume of each subsample used to make the pooled sample reflects the depth range the sample represents and the volume of water that range represents relative to the entire lake volume. Samples pooled in this manner are called HP samples, for "hypsometrically pooled", and are referred to as "volume weighted" because the volume of lake water each depth sample represents determines the subsample size.
+
 In sum, the advantages to this method of pooling are quicker turnover time and representation of the entire lake in a volume weighted fashion. Disadvantages of this method include the time required to pool subsamples, errors introduced during pooling, and the loss of more specific depth information.
- 
+
 ##### Pooling Procedure
-Allow the sample jars to air dry for a day or two. Weigh the Wisconsin Net sample and record the weight on the Volume by Weight form. Mark the liquid level on the jar with a ‘Sharpee’ brand permanent marker.
- 
-Add 95% EtOH to each Schindler trap sample to bring liquid volume up to a weight of 105g, measured by weighing the sample jar with lid on the balance. If sample jars already contain more than 105g of liquid, allow some of the volume to evaporate in the hood, and then bring up to 105g.    Record the final weight of jar + sample + EtOH on the Volume by Weight form.
- 
-Calculate the subsample volumes, called ‘target’ volumes, using the hypsometric table for each lake. Record these volumes on the Volume by Weight form.
- 
-Mix the first sample gently and thoroughly by tilting the jar from side to side. Measure the target volume into a plastic graduated cylinder. Pour the subsample quickly and smoothly because the plankton settle out quite rapidly. Choose the smallest size graduated cylinder that can measure the target volume in one aliquot. Add the subsample to the labeled HP jar. Repeat with all other depth samples. When all of the subsamples have been added to the HP sample, rinse each graduated cylinder into the HP jar with several small volumes of EtOH.
- 
-Place the HP sample in the hood to evaporate the excess volume of EtOH. The final weight of the HP sample should be 105g. Mark the liquid level on the jar with a Sharpee brand permanent marker. If the samples are from the August quarterly, pour the remainder of each Schindler sample into a labeled jar for archival. For all other sample dates, discard what is left of the Schindler samples. Rinse and air dry the field sample jars.
- 
-Sample Storage and Record Keeping
-Store samples in cardboard records boxes obtained from UW Stores, storing samples from each lake in a separate box. Approximately one year of samples will fit in one box. Fill out the forms for each sample and sample box, as noted below.
-            
-Box Inventory Form:   A record of box contents. It remains in the sample storage box.
-Volume by Weight Form:   A record of samples collected for any one lake-date and their volumes, storage box number, and history of sample usage. Filed in 3-ring binders, one copy at the Zoology Museum and one copy with Corinna Gries.
-Samples Stored Form:   A record of all samples collected and storage box number for each. Current forms are kept in a binder at Trout Lake; archived forms are kept in the UW Zoology Museum. The data are eventually entered into the electronic LTER Museum Catalog.
-            
-When boxes become full, check the contents against the Inventory Form and Samples Stored Form, and transfer them to the sample storage room in the garage. LTER samples and related paperwork are eventually transferred to the Zoology Museum at UW-Madison.
- 
+
+Weigh the Wisconsin Net sample and record the weight on the Volume by Weight form. Mark the liquid level on the jar with a 'Sharpee' brand permanent marker, be sure the mark is not above label or it will bleed onto label. Write the sample date on the cap.
+
+Add 95% EtOH to each Schindler trap sample to bring liquid volume up to a weight of 105g. Note that weights always include the lid. If sample jars already contain more than 105g of liquid, allow some of the volume to evaporate in the hood, and then bring up to 105g. Record the final weight of jar + sample + EtOH on the Volume by Weight form.
+
+If the samples were collected at target depths, the pooling volumes are already calculated and listed on the Vol. by Wt forms (also see calculations below in Appendix). Otherwise, calculate the subsample volumes, called 'target' volumes, using the hypsometric table for each lake.
+
+Mix the first sample gently and thoroughly by tilting the jar from side to side. Measure the target volume into a plastic graduated cylinder. Do not use glass. Pour the subsample quickly and smoothly because plankton settle out quite rapidly. Choose the smallest size graduated cylinder that can measure the target volume in one aliquot. Add the subsample to the labeled HP (hypsometrically pooled) jar. Repeat with all other depth samples. When all the subsamples have been added to the HP sample, rinse each graduated cylinder into the HP jar with several small volumes of EtOH. Printable lab instructions can be found in appendix 1.
+
+Place the HP sample in the hood to evaporate the excess volume of rinse EtOH. The final weight of the HP sample should be 105g. Mark the liquid level on the jar with a Sharpee brand permanent marker, and write the sample date on the cap and with the letters "HP". If the samples are from the August quarterly, pour the remainder of each Schindler sample into a labeled jar for archival. For all other sample dates, discard what is left of the Schindler samples. Rinse the field sample jars with RO water and allow to air dry.
+
+#### Sample Storage and Record Keeping
+
+The following samples are archived from each sampling trip: Hyposmetrically pooled sample and Wisconsin Net sample in 120 ml glass jars. Depth samples are archived from the August quarterly sampling in 120 ml glass jars. Store samples in cardboard records boxes (15"x 12"x 4.5"), storing samples from each lake in a separate box. Approximately one year of samples will fit in one box. Fill out the forms for each sample and sample box, as noted below. Box Inventory Form: A record of box contents. It remains in the sample storage box.
+
+Volume by Weight Form: A record of samples collected for any one lake-date and their volumes, storage box number, and history of sample usage. Filed in 3-ring binders. When full, these binders are sent to the LTER data manager. When boxes become full, check the contents against the Inventory Form and Volume by Weight forms. LTER samples and related paperwork are eventually transferred to the Zoology Museum at UW-Madison via the Museum Committee.
+
 #### Zooplankton Counting
- 
-Before removing a subsample from any zooplankton sample jar, weigh the sample to check for evaporation. If the weight is within 0.1 gram of the last weight recorded on the Volume by Weight sheet, no fluid replacement is necessary. If the weight is more than 0.1 gram low, add 95% EtOH to the sample to bring it up to the correct volume.
- 
-Mix the sample well by turning the jar on its side and tipping back and forth gently. We use a Hensen-Stempel pipet with a 5-ml plunger for subsampling zooplankton samples. After mixing the sample, take the subsample as quickly as possible to avoid biasing the subsample as organisms begin to sink. There should be no air bubbles inside the Hensen-Stempel pipet. If there are, replace the subsample into the jar, completely dry the pipet, and begin again with the mixing. When you have a bubble-free subsample, dry the outside of the pipet and dispense the subsample into a cup with 53µ mesh bottom. Rinse the pipet into the cup with RO water, and continue rinsing the sample in the cup, washing the ethanol out of the sample through the mesh.  Rinse the subsample into the counting tray with RO water, washing the mesh thoroughly to transfer all organisms into the tray.
- 
-After removing subsample(s) from the jar, weigh the sample jar, and record this weight in a new column of the Volume by Weight form. Record the balance used, your initials, and the date at the top of the column, and add a column header such as ‘Column C minus subsamples removed for counting’. Do not put the subsample back into the sample jar after counting. Mark the new liquid level on the jar with a permanent marker. Replace the sample jar into the proper storage box.
- 
-Count copepods and cladocerans first, identifying individuals to species wherever possible, and staging all copepodids. Measure a subset of each species.  Then add a few drops of Lugol’s solution to the subsample to stain it, and count the rotifers and nauplii. Count two subsamples for copepods and cladocerans. Count one subsample for rotifers and nauplii. If there are less than 100 of the dominant rotifer in one subsample, count a second subsample for rotifers and nauplii. Add milli-RO water to the tray as necessary to keep the surface of the subsample level. If the surface becomes concave as the subsample evaporates, it is difficult to focus clearly, and measurements may become distorted.
- 
-Count all eggs attached to any species. For copepods and cladocerans, keep track of the number of individuals with eggs as well as the total number of eggs. Total number of eggs is sufficient for rotifers.
- 
-Measurements are done as follows: Measure copepods from the tip of the head to the end of the urosome, excluding the caudal rami. Measure cladocerans from the tip of the head to the posterior of the carapace, excluding tailspine. However, measure helmeted Daphnia species from the anterior edge of the eye to the posterior of the carapace.
-Rotifers are not routinely measured, but where they have been, the total body length excluding spines is measured.  Body width rather than length is measured for Conochilus, Conochiloides, and Collotheca.
 
-Describe, measure, and draw any unknown species on a separate sheet of paper. If possible, take a photograph of the unknown.
+Zooplankton counting is performed on hypsometrically pooled samples.
 
-### Yahara Lakes District:
+Bring sample up to last volume listed on Volume by Weight sheet with EtOH (this accounts for any potential evaporation). Note that sample weights include cap.
 
-#### Preparing the Sample
+Thoroughly mix the sample by inverting the jar gently many times. Remove subsamples with Henson-Stempel pipet, dispensing into a mesh bottomed cup. Rinse the subsample into a Bogorov counting tray with RO water. Add a few drops of soap solution to the tray to reduce surface tension. Count copepods and cladocerans, then stain subsample with lugols and count rotifers and nauplii. Count two 5 ml subsamples for copepods and cladocerans. Count one 5 ml subsample for rotifers and nauplii. If there are fewer than 100 of the most numerous rotifer species in 5 ml, count a second 5ml subsample for rotifers and nauplii. Count all eggs attached to any species. Count individuals floating on the surface as well as those on the bottom of the counting tray. Do not return the subsamples to the jar after counting. In cases where there are very large numbers of rotifers, or where there is so much algae that the rotifers are obscured, count one or more smaller (2ml) subsamples for rotifers and nauplii.
 
-- Working under a hood, transfer the sample from the sample bottle into a 35 or 80 um mesh cup using a squirt bottle containing water. Rinse the zooplankton thoroughly with the water to get rid of any residue preservative (formalin or ethanol).
-- Transfer the sample from the mesh cup into a beaker with marked volumes (measure and mark the beaker volume in 50 mL increments from 50-300 mL using a graduated cylinder).   Using a squirt bottle containing water, make sure that all visible zooplankton are transferred from the mesh cup into the beaker. 
-- Fill the beaker with water to the 50 mL mark.   If the sample contains a high density of zooplankton, particularly daphnia, it is desirable to dilute the sample further by adding more water to the beaker. A benchmark that has been used in the past is to dilute the sample so that there are at least a total of 50 of the dominant adult daphnia species in the 4 reps.   Record the Total Volume of Sample on the data sheet.
-- Using the 1 mL Hensen Stempel Pipette, stir the sample in the beaker in a figure-8 pattern. After becoming acquainted with how to use the pipette, take a 1 mL subsample and place it into a counting dish. A square counting dish with 36 square divisions has worked well for previously counted samples. Using a squirt bottle containing water, rinse the zooplankton from the pipette into the counting dish.
-- Using a pointer, add a small drop of soap to the counting dish to break the surface tension and allow the sample to spread out in the dish. Add enough water so that the sample forms a continuous thin layer in the dish.
- 
-#### Counting the Sample
-- Using the LTER Leica MZ8 dissecting scope, count the total number in the entire subsample of all individual cladoceran species as well as the largest cyclopoid species, Aglaodiaptomus clavipes. Use a benchtop counter to keep track of the number of individual species. It is easiest to keep the microscope at one power (perhaps 250x) and to scan the counting dish in both directions being careful to count the entire dish but not to overlap the passes so much that the same individual is counted twice.
-- For the other species, a portion of the dish can be counted. Count individual squares in the dish (make sure that the dissecting scope is level and try to spread out the zooplankton evenly in the dish if they seem to be concentrated in one area). Record as a ratio the number of squares counted and the total squares in the dish (39.6) in the % Tray Counted column of the data sheet (see past data sheets).   As a general rule, unless there are very large numbers of a particular species of zooplankton, at least one third of the dish should be counted for each species of zooplankton. 
-- To measure individual species, set (and record on the data sheet in the Objective Magnification space) the scope to the 2.5 magnification setting. For each sample date (4 reps per sample date), measure 50 of each species of adult daphnia, 25 of each species of neonate daphnia as well as the unidentified neonate daphnia, and 15 of all other species (and eggs) found. Note that the shell spine is not measured on the daphnia and the setae are not measured on the copepods (see Balcer et. al). When measuring species, it is important to measure all individuals encountered until the specified number is reached so as not to bias the length measurements by inadvertently picking larger or smaller individuals. If the number of individuals counted of a particular species is less than the required number to measure, just measure those individuals counted. Record the lengths in scope units with 1.0 being 10 of the smallest units on the graticule (measuring device in the eyepiece).   
-- For those adult daphnia that are measured, note on the data sheet (in the manner specified on the data sheet): the number of males encountered, the daphnia which are exploded, and the number of eggs in the carapace for those daphnia which have eggs.
-- Prepare another 1 mL subsample in the manner described above, and count the same percentage of the counting dish for each species of zooplankton as was done in the previous subsample(s) of the same sample. Count a total of 4, 1 mL subsamples per sample.
-- Leptodora are counted from the entire sample.   Dump the entire sample back into the mesh cup and rinse it (using a squirt bottle) into a counting dish.   Count and record the total number of Leptodora in the sample. Using the 1x magnification (be sure to record 1x on the data sheet as the magnification at which Leptodora were measured), measure all Leptodora encountered (up to 50).
- 
-#### Storing the Sample 
+Use the automated Z3 counting program to count and measure. Measure 10 individuals of each copepod species/stage, and 20 individuals of each cladoceran species. Measurements as follows: Measure copepods from the tip of the head to the end of the urosome, excluding the caudal rami. Measure cladocerans from the tip of the head to the posterior of the carapace, excluding tailspine. However, measure helmeted Daphnia species from the anterior edge of the eye capsule to the posterior of the carapace.  Rotifers are not routinely measured.
 
-- After the sample has been counted, transfer it from the beaker and counting dish(s) back into the sample jar. Use a squirt bottle containing ethanol to carefully rinse all of the zooplankton back into the sample jar. Fill the sample jar with ethanol. On the sample jar, write ‘Counted’ , the initials of the person who counted the sample, and the date the sample was counted.
- 
-Entering the zooplankton data into an excel spreadsheet
- 
-- An excel spreadsheet including formulas which calculate density and mean length has been set up for the zooplankton data (zoopform1.xls and zoopform2.xls).   Following are some explanations of the excel spreadsheet:
-- Sample Volume (column F): This is the volume that the sample was diluted to in the beaker (Total Volume of Sample on the data sheet). 
- - Objective Magnification (measuring) (column G): This is the number that the zoom dial was turned to when measuring individuals. Note that this will normally be 2.5 except that for Leptodora it is usually 1.   
--  % Tray Counted (column N): This is the percentage of the dish that was counted for the particular species of zooplankton. Be sure that the entry is a percentage number and not the ratio written on the data sheet. 
-- \# Per Tow (column O): This is a formula which calculates the total number of a particular species in the entire sample (or in the single tow). This is calculated using the following formula: ((Total Number in 4 Reps (M))/(4 mL))*(Sample Volume (F))*((100/(% tray counted (N). Note that because the entire sample is counted for Leptodora, the # Per Tow (O) formula is different for Leptodora (= column M).  All other formulas in the spreadsheet are identical for all of the individual species.
-- \# Per m3 (column P): This is a formula which calculates the total number of a particular species in a cubic meter of water. This is calculated using the following formula:   (# Per Tow (O))/((Tow Depth (E))*p,*(net hoop radius)2 ) where the net hoop radius for the Southern Lakes LTER net is 0.15 meters.
-- \# Species Measured (column R): This is a formula which counts the number of length entries made for an individual species. 
-- Average Length (mm) (column S): This is a formula which averages the individual species lengths in scope units and divides by the Objective Magnification (G). Note that this formula has been checked by calibrating the graticule in mm using a stage micrometer. If a different microscope is used or parts of the existing microscope are changed (objective lens (currently 1.0x planochromatic), graticule (currently 12mm:120) or eyepieces (currently 10x)), the graticule should be recalibrated and the formula adjusted accordingly.  
- 
-#### Proofreading the zooplankton data
- 
-Following are some suggestions to avoid data entry errors
-- Check the zooplankton sample dates with the dates on the field sheets. If there is a discrepancy of a few days, assume that the date on the field sheet is the correct date.
-- After proofreading an entire lake and years worth of data (i.e. a complete spreadsheet), save the spreadsheet as a test file and sort by species. Check that all of the Objective Magnif. (column G) for Leptodora are 1 (if not check against the data sheet). Also make sure that the # Per Tow (column O) contains the same formula for all of the Leptodora entries (=column M). Also check the % Tray Counted (column N) and see if there are entries other than 100% for species which are normally counted in the entire tray (daphnia, aglaodiap, etc).   It is also a good idea to sort the test file by other columns and look for irregularly high and low readings. 
- 
-#### Southern Lakes LTER Zooplankton Species
+When finished, mark the new liquid level on the jar with a permanent marker. Weigh jar and record weight in a new column of the V by Wt sheet. Return sample jar to storage box.
 
-Refer to the zooplankton data sheet for the list of species found in the southern LTER lakes. Note that there were some 1995 Lake Mendota zooplankton samples counted in 1996 for which a different protocol was followed.  
+#### References
 
-- Certain zooplankton have not been identified to species because of the difficulty in distinguishing them from other similar species. This is the case with Leptodiaptomus siciloides, Leptodiaptomus minutus, and Skistodiaptomus oregonensis. Although it is possible to distinguish these species apart using a dissecting scope, due to time constraints it was decided to group them in the Diaptomus spp. category.    Acanthocyclops spp., Chydorus, and Alona are other examples of categorizing to genus but not species.
-- There was a change in counting protocol after the 1995 through 1999 Lake Mendota samples were counted. Initially, we used a size cut off of approximately 0.9mm (the size at which it becomes difficult with a dissecting scope to see the pectin of and thus speciate Daphnia pulicaria) below which we put all daphnia in a Daphnia spp. (neonate) category.    For more recently counted samples, we have kept the same size cut-off at 0.9 mm to distinguish adult daphnia from neonates, but we have expanded the neonate category into Neonate Daphnia pulicaria, Neonate Daphnia mendotae, and Unid. Neonate Daphnia spp.
- 
 Refer to the LTER zooplankton notes for distinctive characteristics of zooplankton found in the LTER lakes. Useful references are listed below:
 
-- Balcer, Mary D., Nancy L. Korda, and Stanley I. Dodson. 1984.   Zooplankton of the Great Lakes, A Guide to the Identification and Ecology of the Common Crustacean Species. The University of Wisconsin Press.
-- Dodson, Stanley I., Branchiopods and Calanoid Copepods of Wisconsin, 8/5/99 draft (or in press).
-- Hudson, Patrick L., Janet W. Reid, Lynn T. Lesko, James H. Selgeby. 1998. Cyclopoid and Harpactacoid Copepods of the Laurentian Great Lakes. Ohio Biological Survey Bulletin NS 12(2):1-50.
+-   Balcer, Mary D., Nancy L. Korda, and Stanley I. Dodson. 1984. Zooplankton of the Great Lakes, A Guide to the Identification and Ecology of the Common Crustacean Species. The University of Wisconsin Press.
+-   Dodson, Stanley I., Branchiopods and Calanoid Copepods of Wisconsin, 8/5/99 draft (or in press).
+-   Hudson, Patrick L., Janet W. Reid, Lynn T. Lesko, James H. Selgeby. 1998. Cyclopoid and Harpactacoid Copepods of the Laurentian Great Lakes. Ohio Biological Survey Bulletin NS 12(2):1-50.
+
+
+#### Protocol log:
+
+-   1981 -- May1984 -- a 0.5m high, 31L Schindler Patalas trap with 80um mesh net was used. Two Wisconsin Net tows were collected. Preservative was 12% buffered formalin.
+-   June1984 -- changed to 53um mesh net on Schindler trap.
+-   July 1986 -- began using the 2m high, 45L Schindler Patalas trap. Changed WI Net collection to take only one tow.
+-   2001 -- changed zooplankton preservative from 12% buffered formalin to 95% EtOH.
+-   The number of sample dates per year counted varies with lake and year, from 5 dates/year to 17 dates/year.
+-   1981-1983 -- pooled samples are of several types: Total Pooled (TP) were created using equal volume subsamples of the Schindler samples. Epi, Meta, Hypo pooled used equal volume subsamples from the Schindler samples collected from each of the thermal strata. Strata Pooled used equal volume subsamples from the Epi, Meta, Hypo pooled samples to create an entire lake sample. Hypsometrically Pooled (HP) is our standard, which uses subsample volumes weighted to represent the hypsometry of the lake.
+
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             | HP     | HP      | Discrete Depths | TP     | SP     | E,M,H  |
+|             |        |         |                 |        |        |        |
+|             |        | (E,M,H) |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CR '81      | X      | X       |                 | X      |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CR '82      | X      |         | X               | X      |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CR '83      | X      | X       |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CR '84      | X      | X       | X               |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CR '85-'95  | X      | X       |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '96-present | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| SP '81      | X      |         | X               |        | X      | X      |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| SP '82      | X      |         | X               | X      |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| SP '83      | X      |         | X               |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| SP '84-'89  | X      | X       |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '90-present | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| BM '81      | X      |         |                 |        | X      | X      |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| BM '82-'85  | X      | X       | X               |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| BM '86-'89  | X      | X       |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '90-present | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| TR '81      | X      |         |                 |        | X      | X      |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| TR '82      | X      |         | X               | X      |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| TR '83-'89  | X      | X       |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '90-present | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| TB '82-'87  | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| TB '88      | X      | X       | X               |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '89-present | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| CB '81-'86  |        |         | X (0,1m)        |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| '86-present |        |         | X (1m)          |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+|             |        |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
+| AL'82-pres. | X      |         |                 |        |        |        |
++-------------+--------+---------+-----------------+--------+--------+--------+
 
